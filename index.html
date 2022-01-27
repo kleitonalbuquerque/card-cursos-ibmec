@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <select id="banana"></select
+    ><br />
+    <select id="uva"></select
+    ><br />
+    <select id="pera"></select
+    ><br />
+    <select id="maca"></select>
+    <div id="teste"></div>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $.getJSON("data.json", function (data) {
+        var dataArrPosPresencial = data[0];
+        var dataArrPosOnline = data[1];
+        var arrayOptionModalidade = [
+          "Escolha a modalidade",
+          dataArrPosPresencial.nome,
+          dataArrPosOnline.nome,
+        ];
+
+        arrayOptionModalidade.forEach(function (item) {
+          $("#banana").append(
+            "<option value=" + item + ">" + item + "</option>"
+          );
+          // console.log(item);
+          var modalidade = item;
+        });
+
+        console.log(arrayOptionModalidade);
+        console.log(dataArrPosPresencial.data);
+        console.log(dataArrPosOnline.data);
+        $("div").append(dataArrPosPresencial.nome);
+      });
+    });
+  </script>
+</html>

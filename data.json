@@ -1,0 +1,2612 @@
+[
+  {
+    "nome": "posIbmec",
+    "data": [
+      {
+        "estado": "AMAZONAS",
+        "uf": "AM",
+        "listaCursos": {
+          "cursosMBA": [
+            {
+              "CodCurso": 2777,
+              "NomeCurso": "MBA EM FINANÇAS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 2054,
+                  "NomeMunicipio": "MANAUS",
+        "estado": "AMAZONAS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "AM",
+                    "NomeMunicipio": "MANAUS",
+                    "NomeBairro": "ADRIANOPOLIS",
+                    "LogradouroCampus": "R NATAL, 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "69057090"
+                  },
+                  "CodCampus": 3436,
+                  "NomeCampus": "UNIDADE PÓS - ADRIANOPOLIS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 1631,
+              "NomeCurso": "MBA EM GESTÃO DE NEGÓCIOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 2054,
+                  "NomeMunicipio": "MANAUS",
+        "estado": "AMAZONAS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "AM",
+                    "NomeMunicipio": "MANAUS",
+                    "NomeBairro": "ADRIANOPOLIS",
+                    "LogradouroCampus": "R NATAL, 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "69057090"
+                  },
+                  "CodCampus": 3436,
+                  "NomeCampus": "UNIDADE PÓS - ADRIANOPOLIS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 972,
+              "NomeCurso": "MBA EM GESTÃO DE PROJETOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 2054,
+                  "NomeMunicipio": "MANAUS",
+        "estado": "AMAZONAS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "AM",
+                    "NomeMunicipio": "MANAUS",
+                    "NomeBairro": "ADRIANOPOLIS",
+                    "LogradouroCampus": "R NATAL, 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "69057090"
+                  },
+                  "CodCampus": 3436,
+                  "NomeCampus": "UNIDADE PÓS - ADRIANOPOLIS"
+                }
+              ]
+            }
+          ],
+          "cursosPOS": [
+            {
+              "CodCurso": 5030,
+              "NomeCurso": "LLM EM DIREITO CORPORATIVO",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 2054,
+                  "NomeMunicipio": "MANAUS",
+        "estado": "AMAZONAS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "AM",
+                    "NomeMunicipio": "MANAUS",
+                    "NomeBairro": "ADRIANOPOLIS",
+                    "LogradouroCampus": "R NATAL, 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "69057090"
+                  },
+                  "CodCampus": 3436,
+                  "NomeCampus": "UNIDADE PÓS - ADRIANOPOLIS"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "estado": "BAHIA",
+        "uf": "BA",
+        "listaCursos": {
+          "cursosMBA": [
+            {
+              "CodCurso": 2777,
+              "NomeCurso": "MBA EM FINANÇAS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 8974,
+                  "NomeMunicipio": "SALVADOR",
+        "estado": "BAHIA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "BA",
+                    "NomeMunicipio": "SALVADOR",
+                    "NomeBairro": "IMBUI",
+                    "LogradouroCampus": "AV LUIS VIANA FILHO, 3172",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "41720200"
+                  },
+                  "CodCampus": 3439,
+                  "NomeCampus": "UNIDADE PÓS - IMBUI"
+                }
+              ]
+            },
+            {
+              "CodCurso": 1631,
+              "NomeCurso": "MBA EM GESTÃO DE NEGÓCIOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 8974,
+                  "NomeMunicipio": "SALVADOR",
+        "estado": "BAHIA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "BA",
+                    "NomeMunicipio": "SALVADOR",
+                    "NomeBairro": "IMBUI",
+                    "LogradouroCampus": "AV LUIS VIANA FILHO, 3172",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "41720200"
+                  },
+                  "CodCampus": 3439,
+                  "NomeCampus": "UNIDADE PÓS - IMBUI"
+                }
+              ]
+            },
+            {
+              "CodCurso": 972,
+              "NomeCurso": "MBA EM GESTÃO DE PROJETOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 8974,
+                  "NomeMunicipio": "SALVADOR",
+        "estado": "BAHIA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "BA",
+                    "NomeMunicipio": "SALVADOR",
+                    "NomeBairro": "IMBUI",
+                    "LogradouroCampus": "AV LUIS VIANA FILHO, 3172",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "41720200"
+                  },
+                  "CodCampus": 3439,
+                  "NomeCampus": "UNIDADE PÓS - IMBUI"
+                }
+              ]
+            }
+          ],
+          "cursosPOS": [
+            {
+              "CodCurso": 5030,
+              "NomeCurso": "LLM EM DIREITO CORPORATIVO",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 8974,
+                  "NomeMunicipio": "SALVADOR",
+        "estado": "BAHIA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "BA",
+                    "NomeMunicipio": "SALVADOR",
+                    "NomeBairro": "IMBUI",
+                    "LogradouroCampus": "AV LUIS VIANA FILHO, 3172",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "41720200"
+                  },
+                  "CodCampus": 3439,
+                  "NomeCampus": "UNIDADE PÓS - IMBUI"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "estado": "DISTRITO FEDERAL",
+        "uf": "DF",
+        "listaCursos": {
+          "cursosMBA": [
+            {
+              "CodCurso": 4406,
+              "NomeCurso": "LLM DIREITO EMPRESARIAL",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 15890,
+                  "NomeMunicipio": "BRASILIA",
+        "estado": "DISTRITO FEDERAL"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "DF",
+                    "NomeMunicipio": "BRASILIA",
+                    "NomeBairro": "ZONA INDUSTRIAL",
+                    "LogradouroCampus": "QUADRA SIG QUADRA 4",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "70610440"
+                  },
+                  "CodCampus": 2790,
+                  "NomeCampus": "SUDOESTE"
+                }
+              ]
+            },
+            {
+              "CodCurso": 3772,
+              "NomeCurso": "LLM EM DIREITO TRIBU. E CONTAB. TRIBUT.",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 15890,
+                  "NomeMunicipio": "BRASILIA",
+        "estado": "DISTRITO FEDERAL"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "DF",
+                    "NomeMunicipio": "BRASILIA",
+                    "NomeBairro": "ZONA INDUSTRIAL",
+                    "LogradouroCampus": "QUADRA SIG QUADRA 4",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "70610440"
+                  },
+                  "CodCampus": 2790,
+                  "NomeCampus": "SUDOESTE"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5043,
+              "NomeCurso": "MASTER EM COMPLIANCE",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 15890,
+                  "NomeMunicipio": "BRASILIA",
+        "estado": "DISTRITO FEDERAL"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "DF",
+                    "NomeMunicipio": "BRASILIA",
+                    "NomeBairro": "ZONA INDUSTRIAL",
+                    "LogradouroCampus": "QUADRA SIG QUADRA 4",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "70610440"
+                  },
+                  "CodCampus": 2790,
+                  "NomeCampus": "SUDOESTE"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5050,
+              "NomeCurso": "MBA EM FINANÇAS E CONTROLADORIA",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 15890,
+                  "NomeMunicipio": "BRASILIA",
+        "estado": "DISTRITO FEDERAL"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "DF",
+                    "NomeMunicipio": "BRASILIA",
+                    "NomeBairro": "ZONA INDUSTRIAL",
+                    "LogradouroCampus": "QUADRA SIG QUADRA 4",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "70610440"
+                  },
+                  "CodCampus": 2790,
+                  "NomeCampus": "SUDOESTE"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5051,
+              "NomeCurso": "PÓS GRADUAÇÃO EM GESTÃO EMPRESARIAL",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 15890,
+                  "NomeMunicipio": "BRASILIA",
+        "estado": "DISTRITO FEDERAL"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "DF",
+                    "NomeMunicipio": "BRASILIA",
+                    "NomeBairro": "ZONA INDUSTRIAL",
+                    "LogradouroCampus": "QUADRA SIG QUADRA 4",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "70610440"
+                  },
+                  "CodCampus": 2790,
+                  "NomeCampus": "SUDOESTE"
+                }
+              ]
+            }
+          ],
+          "cursosPOS": [
+            {
+              "CodCurso": 4438,
+              "NomeCurso": "GLOBAL - MBA BUSINESS MANAGEMENT",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 15890,
+                  "NomeMunicipio": "BRASILIA",
+        "estado": "DISTRITO FEDERAL"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "DF",
+                    "NomeMunicipio": "BRASILIA",
+                    "NomeBairro": "ZONA INDUSTRIAL",
+                    "LogradouroCampus": "QUADRA SIG QUADRA 4",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "70610440"
+                  },
+                  "CodCampus": 2790,
+                  "NomeCampus": "SUDOESTE"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4975,
+              "NomeCurso": "MBA EM BI & DATA SCIENCE",
+              "NomeArea": "TECNOLOGIA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 15890,
+                  "NomeMunicipio": "BRASILIA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "DF",
+                    "NomeMunicipio": "BRASILIA",
+                    "NomeBairro": "ZONA INDUSTRIAL",
+                    "LogradouroCampus": "QUADRA SIG QUADRA 4",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "70610440"
+                  },
+                  "CodCampus": 2790,
+                  "NomeCampus": "SUDOESTE"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4977,
+              "NomeCurso": "MBA EM CIO & IT MANAGEMENT",
+              "NomeArea": "TECNOLOGIA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 15890,
+                  "NomeMunicipio": "BRASILIA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "DF",
+                    "NomeMunicipio": "BRASILIA",
+                    "NomeBairro": "ZONA INDUSTRIAL",
+                    "LogradouroCampus": "QUADRA SIG QUADRA 4",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "70610440"
+                  },
+                  "CodCampus": 2790,
+                  "NomeCampus": "SUDOESTE"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4976,
+              "NomeCurso": "MBA EM CLOUD COMPUTING",
+              "NomeArea": "TECNOLOGIA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 15890,
+                  "NomeMunicipio": "BRASILIA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "DF",
+                    "NomeMunicipio": "BRASILIA",
+                    "NomeBairro": "ZONA INDUSTRIAL",
+                    "LogradouroCampus": "QUADRA SIG QUADRA 4",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "70610440"
+                  },
+                  "CodCampus": 2790,
+                  "NomeCampus": "SUDOESTE"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4978,
+              "NomeCurso": "MBA EM CYBER SECURITY",
+              "NomeArea": "TECNOLOGIA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 15890,
+                  "NomeMunicipio": "BRASILIA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "DF",
+                    "NomeMunicipio": "BRASILIA",
+                    "NomeBairro": "ZONA INDUSTRIAL",
+                    "LogradouroCampus": "QUADRA SIG QUADRA 4",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "70610440"
+                  },
+                  "CodCampus": 2790,
+                  "NomeCampus": "SUDOESTE"
+                }
+              ]
+            },
+            {
+              "CodCurso": 1595,
+              "NomeCurso": "MBA EM GESTÃO DE MARKETING",
+              "NomeArea": "MARKETING E VENDAS",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 15890,
+                  "NomeMunicipio": "BRASILIA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "DF",
+                    "NomeMunicipio": "BRASILIA",
+                    "NomeBairro": "ZONA INDUSTRIAL",
+                    "LogradouroCampus": "QUADRA SIG QUADRA 4",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "70610440"
+                  },
+                  "CodCampus": 2790,
+                  "NomeCampus": "SUDOESTE"
+                }
+              ]
+            },
+            {
+              "CodCurso": 1631,
+              "NomeCurso": "MBA EM GESTÃO DE NEGÓCIOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 15890,
+                  "NomeMunicipio": "BRASILIA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "DF",
+                    "NomeMunicipio": "BRASILIA",
+                    "NomeBairro": "ZONA INDUSTRIAL",
+                    "LogradouroCampus": "QUADRA SIG QUADRA 4",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "70610440"
+                  },
+                  "CodCampus": 2790,
+                  "NomeCampus": "SUDOESTE"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4552,
+              "NomeCurso": "MBA EM GESTÃO DE PROCESSOS - BPM",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 15890,
+                  "NomeMunicipio": "BRASILIA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "DF",
+                    "NomeMunicipio": "BRASILIA",
+                    "NomeBairro": "ZONA INDUSTRIAL",
+                    "LogradouroCampus": "QUADRA SIG QUADRA 4",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "70610440"
+                  },
+                  "CodCampus": 2790,
+                  "NomeCampus": "SUDOESTE"
+                }
+              ]
+            },
+            {
+              "CodCurso": 972,
+              "NomeCurso": "MBA EM GESTÃO DE PROJETOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 15890,
+                  "NomeMunicipio": "BRASILIA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "DF",
+                    "NomeMunicipio": "BRASILIA",
+                    "NomeBairro": "ZONA INDUSTRIAL",
+                    "LogradouroCampus": "QUADRA SIG QUADRA 4",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "70610440"
+                  },
+                  "CodCampus": 2790,
+                  "NomeCampus": "SUDOESTE"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5053,
+              "NomeCurso": "MBA EM POLÍTICAS PÚBLICAS E RELAÇÕES INSTITUCIONAIS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 15890,
+                  "NomeMunicipio": "BRASILIA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "DF",
+                    "NomeMunicipio": "BRASILIA",
+                    "NomeBairro": "ZONA INDUSTRIAL",
+                    "LogradouroCampus": "QUADRA SIG QUADRA 4",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "70610440"
+                  },
+                  "CodCampus": 2790,
+                  "NomeCampus": "SUDOESTE"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "estado": "MINAS GERAIS",
+        "uf": "MG",
+        "listaCursos": {
+          "cursosMBA": [
+            {
+              "CodCurso": 4438,
+              "NomeCurso": "GLOBAL - MBA BUSINESS MANAGEMENT",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 25666,
+                  "NomeMunicipio": "BELO HORIZONTE",
+        "estado": "MINAS GERAIS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "MG",
+                    "NomeMunicipio": "BELO HORIZONTE",
+                    "NomeBairro": "FUNCIONARIOS",
+                    "LogradouroCampus": "RUA RIO GRANDE DO NORTE, Nº 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "30130130"
+                  },
+                  "CodCampus": 2174,
+                  "NomeCampus": "BELO HORIZONTE - FUNCIONÁRIOS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4439,
+              "NomeCurso": "GLOBAL - MBA FINANCE",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 25666,
+                  "NomeMunicipio": "BELO HORIZONTE",
+        "estado": "MINAS GERAIS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "MG",
+                    "NomeMunicipio": "BELO HORIZONTE",
+                    "NomeBairro": "FUNCIONARIOS",
+                    "LogradouroCampus": "RUA RIO GRANDE DO NORTE, Nº 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "30130130"
+                  },
+                  "CodCampus": 2174,
+                  "NomeCampus": "BELO HORIZONTE - FUNCIONÁRIOS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4975,
+              "NomeCurso": "MBA EM BI & DATA SCIENCE",
+              "NomeArea": "TECNOLOGIA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 25666,
+                  "NomeMunicipio": "BELO HORIZONTE",
+        "estado": "MINAS GERAIS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "MG",
+                    "NomeMunicipio": "BELO HORIZONTE",
+                    "NomeBairro": "FUNCIONARIOS",
+                    "LogradouroCampus": "RUA RIO GRANDE DO NORTE, Nº 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "30130130"
+                  },
+                  "CodCampus": 2174,
+                  "NomeCampus": "BELO HORIZONTE - FUNCIONÁRIOS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4977,
+              "NomeCurso": "MBA EM CIO & IT MANAGEMENT",
+              "NomeArea": "TECNOLOGIA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 25666,
+                  "NomeMunicipio": "BELO HORIZONTE",
+        "estado": "MINAS GERAIS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "MG",
+                    "NomeMunicipio": "BELO HORIZONTE",
+                    "NomeBairro": "FUNCIONARIOS",
+                    "LogradouroCampus": "RUA RIO GRANDE DO NORTE, Nº 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "30130130"
+                  },
+                  "CodCampus": 2174,
+                  "NomeCampus": "BELO HORIZONTE - FUNCIONÁRIOS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4976,
+              "NomeCurso": "MBA EM CLOUD COMPUTING",
+              "NomeArea": "TECNOLOGIA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 25666,
+                  "NomeMunicipio": "BELO HORIZONTE",
+        "estado": "MINAS GERAIS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "MG",
+                    "NomeMunicipio": "BELO HORIZONTE",
+                    "NomeBairro": "FUNCIONARIOS",
+                    "LogradouroCampus": "RUA RIO GRANDE DO NORTE, Nº 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "30130130"
+                  },
+                  "CodCampus": 2174,
+                  "NomeCampus": "BELO HORIZONTE - FUNCIONÁRIOS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4978,
+              "NomeCurso": "MBA EM CYBER SECURITY",
+              "NomeArea": "TECNOLOGIA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 25666,
+                  "NomeMunicipio": "BELO HORIZONTE",
+        "estado": "MINAS GERAIS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "MG",
+                    "NomeMunicipio": "BELO HORIZONTE",
+                    "NomeBairro": "FUNCIONARIOS",
+                    "LogradouroCampus": "RUA RIO GRANDE DO NORTE, Nº 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "30130130"
+                  },
+                  "CodCampus": 2174,
+                  "NomeCampus": "BELO HORIZONTE - FUNCIONÁRIOS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 1595,
+              "NomeCurso": "MBA EM GESTÃO DE MARKETING",
+              "NomeArea": "MARKETING E VENDAS",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 25666,
+                  "NomeMunicipio": "BELO HORIZONTE",
+        "estado": "MINAS GERAIS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "MG",
+                    "NomeMunicipio": "BELO HORIZONTE",
+                    "NomeBairro": "FUNCIONARIOS",
+                    "LogradouroCampus": "RUA RIO GRANDE DO NORTE, Nº 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "30130130"
+                  },
+                  "CodCampus": 2174,
+                  "NomeCampus": "BELO HORIZONTE - FUNCIONÁRIOS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 1631,
+              "NomeCurso": "MBA EM GESTÃO DE NEGÓCIOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 25666,
+                  "NomeMunicipio": "BELO HORIZONTE",
+        "estado": "MINAS GERAIS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "MG",
+                    "NomeMunicipio": "BELO HORIZONTE",
+                    "NomeBairro": "FUNCIONARIOS",
+                    "LogradouroCampus": "RUA RIO GRANDE DO NORTE, Nº 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "30130130"
+                  },
+                  "CodCampus": 2174,
+                  "NomeCampus": "BELO HORIZONTE - FUNCIONÁRIOS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4552,
+              "NomeCurso": "MBA EM GESTÃO DE PROCESSOS - BPM",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 25666,
+                  "NomeMunicipio": "BELO HORIZONTE",
+        "estado": "MINAS GERAIS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "MG",
+                    "NomeMunicipio": "BELO HORIZONTE",
+                    "NomeBairro": "FUNCIONARIOS",
+                    "LogradouroCampus": "RUA RIO GRANDE DO NORTE, Nº 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "30130130"
+                  },
+                  "CodCampus": 2174,
+                  "NomeCampus": "BELO HORIZONTE - FUNCIONÁRIOS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 972,
+              "NomeCurso": "MBA EM GESTÃO DE PROJETOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 25666,
+                  "NomeMunicipio": "BELO HORIZONTE",
+        "estado": "MINAS GERAIS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "MG",
+                    "NomeMunicipio": "BELO HORIZONTE",
+                    "NomeBairro": "FUNCIONARIOS",
+                    "LogradouroCampus": "RUA RIO GRANDE DO NORTE, Nº 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "30130130"
+                  },
+                  "CodCampus": 2174,
+                  "NomeCampus": "BELO HORIZONTE - FUNCIONÁRIOS"
+                }
+              ]
+            }
+          ],
+          "cursosPOS": [
+            {
+              "CodCurso": 4406,
+              "NomeCurso": "LLM DIREITO EMPRESARIAL",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 25666,
+                  "NomeMunicipio": "BELO HORIZONTE",
+        "estado": "MINAS GERAIS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "MG",
+                    "NomeMunicipio": "BELO HORIZONTE",
+                    "NomeBairro": "FUNCIONARIOS",
+                    "LogradouroCampus": "RUA RIO GRANDE DO NORTE, Nº 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "30130130"
+                  },
+                  "CodCampus": 2174,
+                  "NomeCampus": "BELO HORIZONTE - FUNCIONÁRIOS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5044,
+              "NomeCurso": "MASTER EM DIREITO E GESTÃO JURÍDICA",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 25666,
+                  "NomeMunicipio": "BELO HORIZONTE",
+        "estado": "MINAS GERAIS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "MG",
+                    "NomeMunicipio": "BELO HORIZONTE",
+                    "NomeBairro": "FUNCIONARIOS",
+                    "LogradouroCampus": "RUA RIO GRANDE DO NORTE, Nº 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "30130130"
+                  },
+                  "CodCampus": 2174,
+                  "NomeCampus": "BELO HORIZONTE - FUNCIONÁRIOS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5050,
+              "NomeCurso": "MBA EM FINANÇAS E CONTROLADORIA",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 25666,
+                  "NomeMunicipio": "BELO HORIZONTE",
+        "estado": "MINAS GERAIS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "MG",
+                    "NomeMunicipio": "BELO HORIZONTE",
+                    "NomeBairro": "FUNCIONARIOS",
+                    "LogradouroCampus": "RUA RIO GRANDE DO NORTE, Nº 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "30130130"
+                  },
+                  "CodCampus": 2174,
+                  "NomeCampus": "BELO HORIZONTE - FUNCIONÁRIOS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5051,
+              "NomeCurso": "PÓS GRADUAÇÃO EM GESTÃO EMPRESARIAL",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 25666,
+                  "NomeMunicipio": "BELO HORIZONTE",
+        "estado": "MINAS GERAIS"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "MG",
+                    "NomeMunicipio": "BELO HORIZONTE",
+                    "NomeBairro": "FUNCIONARIOS",
+                    "LogradouroCampus": "RUA RIO GRANDE DO NORTE, Nº 300",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "30130130"
+                  },
+                  "CodCampus": 2174,
+                  "NomeCampus": "BELO HORIZONTE - FUNCIONÁRIOS"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "estado": "PERNAMBUCO",
+        "uf": "PE",
+        "listaCursos": {
+          "cursosMBA": [
+            {
+              "CodCurso": 2777,
+              "NomeCurso": "MBA EM FINANÇAS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 51136,
+                  "NomeMunicipio": "RECIFE",
+        "estado": "PERNAMBUCO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "R JEAN EMILE FAVRE, 422",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "51200060",
+                    "NomeBairro": "IMBIRIBEIRA",
+                    "NomeMunicipio": "RECIFE",
+                    "SiglaUF": "PE"
+                  },
+                  "CodCampus": 3437,
+                  "NomeCampus": "UNIDADE PÓS - IMBIRIBEIRA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 1631,
+              "NomeCurso": "MBA EM GESTÃO DE NEGÓCIOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 51136,
+                  "NomeMunicipio": "RECIFE",
+        "estado": "PERNAMBUCO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "R JEAN EMILE FAVRE, 422",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "51200060",
+                    "NomeBairro": "IMBIRIBEIRA",
+                    "NomeMunicipio": "RECIFE",
+                    "SiglaUF": "PE"
+                  },
+                  "CodCampus": 3437,
+                  "NomeCampus": "UNIDADE PÓS - IMBIRIBEIRA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 972,
+              "NomeCurso": "MBA EM GESTÃO DE PROJETOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 51136,
+                  "NomeMunicipio": "RECIFE",
+        "estado": "PERNAMBUCO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "R JEAN EMILE FAVRE, 422",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "51200060",
+                    "NomeBairro": "IMBIRIBEIRA",
+                    "NomeMunicipio": "RECIFE",
+                    "SiglaUF": "PE"
+                  },
+                  "CodCampus": 3437,
+                  "NomeCampus": "UNIDADE PÓS - IMBIRIBEIRA"
+                }
+              ]
+            }
+          ],
+          "cursosPOS": [
+            {
+              "CodCurso": 5030,
+              "NomeCurso": "LLM EM DIREITO CORPORATIVO",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 51136,
+                  "NomeMunicipio": "RECIFE",
+        "estado": "PERNAMBUCO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "R JEAN EMILE FAVRE, 422",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "51200060",
+                    "NomeBairro": "IMBIRIBEIRA",
+                    "NomeMunicipio": "RECIFE",
+                    "SiglaUF": "PE"
+                  },
+                  "CodCampus": 3437,
+                  "NomeCampus": "UNIDADE PÓS - IMBIRIBEIRA"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "estado": "PIAUÍ",
+        "uf": "PI",
+        "listaCursos": {
+          "cursosMBA": [
+            {
+              "CodCurso": 2777,
+              "NomeCurso": "MBA EM FINANÇAS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 53465,
+                  "NomeMunicipio": "TERESINA",
+        "estado": "PIAUÍ"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "PI",
+                    "NomeMunicipio": "TERESINA",
+                    "NomeBairro": "HORTO",
+                    "LogradouroCampus": "AV POTI, 1256",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "64052790"
+                  },
+                  "CodCampus": 3441,
+                  "NomeCampus": "UNIDADE PÓS - HORTO"
+                }
+              ]
+            },
+            {
+              "CodCurso": 1631,
+              "NomeCurso": "MBA EM GESTÃO DE NEGÓCIOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 53465,
+                  "NomeMunicipio": "TERESINA",
+        "estado": "PIAUÍ"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "PI",
+                    "NomeMunicipio": "TERESINA",
+                    "NomeBairro": "HORTO",
+                    "LogradouroCampus": "AV POTI, 1256",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "64052790"
+                  },
+                  "CodCampus": 3441,
+                  "NomeCampus": "UNIDADE PÓS - HORTO"
+                }
+              ]
+            },
+            {
+              "CodCurso": 972,
+              "NomeCurso": "MBA EM GESTÃO DE PROJETOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 53465,
+                  "NomeMunicipio": "TERESINA",
+        "estado": "PIAUÍ"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "PI",
+                    "NomeMunicipio": "TERESINA",
+                    "NomeBairro": "HORTO",
+                    "LogradouroCampus": "AV POTI, 1256",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "64052790"
+                  },
+                  "CodCampus": 3441,
+                  "NomeCampus": "UNIDADE PÓS - HORTO"
+                }
+              ]
+            }
+          ],
+          "cursosPOS": [
+            {
+              "CodCurso": 5030,
+              "NomeCurso": "LLM EM DIREITO CORPORATIVO",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 53465,
+                  "NomeMunicipio": "TERESINA",
+        "estado": "PIAUÍ"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "PI",
+                    "NomeMunicipio": "TERESINA",
+                    "NomeBairro": "HORTO",
+                    "LogradouroCampus": "AV POTI, 1256",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "64052790"
+                  },
+                  "CodCampus": 3441,
+                  "NomeCampus": "UNIDADE PÓS - HORTO"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "estado": "RIO DE JANEIRO",
+        "UF": "RJ",
+        "listaCursos": {
+          "cursosMBA": [
+            {
+              "CodCurso": 4438,
+              "CodTipoCurso": 1,
+              "NomeTipoCurso": "ESPECIALIZAÇÃO",
+              "NomeCurso": "GLOBAL - MBA BUSINESS MANAGEMENT",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "RJ",
+                    "NomeMunicipio": "RIO DE JANEIRO",
+                    "NomeBairro": "BARRA DA TIJUCA",
+                    "LogradouroCampus": "AVENIDA ARMANDO LOMBARDI, Nº 940",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "22640000"
+                  },
+                  "CodCampus": 2161,
+                  "NomeCampus": "BARRA I - IBMEC"
+                },
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4975,
+              "CodTipoCurso": 1,
+              "NomeTipoCurso": "ESPECIALIZAÇÃO",
+              "NomeCurso": "MBA EM BI & DATA SCIENCE",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "RJ",
+                    "NomeMunicipio": "RIO DE JANEIRO",
+                    "NomeBairro": "BARRA DA TIJUCA",
+                    "LogradouroCampus": "AVENIDA ARMANDO LOMBARDI, Nº 940",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "22640000"
+                  },
+                  "CodCampus": 2161,
+                  "NomeCampus": "BARRA I - IBMEC"
+                },
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4977,
+              "NomeCurso": "MBA EM CIO & IT MANAGEMENT",
+              "NomeArea": "TECNOLOGIA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "RJ",
+                    "NomeMunicipio": "RIO DE JANEIRO",
+                    "NomeBairro": "BARRA DA TIJUCA",
+                    "LogradouroCampus": "AVENIDA ARMANDO LOMBARDI, Nº 940",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "22640000"
+                  },
+                  "CodCampus": 2161,
+                  "NomeCampus": "BARRA I - IBMEC"
+                },
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4976,
+              "NomeCurso": "MBA EM CLOUD COMPUTING",
+              "NomeArea": "TECNOLOGIA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "RJ",
+                    "NomeMunicipio": "RIO DE JANEIRO",
+                    "NomeBairro": "BARRA DA TIJUCA",
+                    "LogradouroCampus": "AVENIDA ARMANDO LOMBARDI, Nº 940",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "22640000"
+                  },
+                  "CodCampus": 2161,
+                  "NomeCampus": "BARRA I - IBMEC"
+                },
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4978,
+              "NomeCurso": "MBA EM CYBER SECURITY",
+              "NomeArea": "TECNOLOGIA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "RJ",
+                    "NomeMunicipio": "RIO DE JANEIRO",
+                    "NomeBairro": "BARRA DA TIJUCA",
+                    "LogradouroCampus": "AVENIDA ARMANDO LOMBARDI, Nº 940",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "22640000"
+                  },
+                  "CodCampus": 2161,
+                  "NomeCampus": "BARRA I - IBMEC"
+                },
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5047,
+              "NomeCurso": "MBA EM GESTÃO DE ESPORTES",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 1595,
+              "NomeCurso": "MBA EM GESTÃO DE MARKETING",
+              "NomeArea": "MARKETING E VENDAS",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "RJ",
+                    "NomeMunicipio": "RIO DE JANEIRO",
+                    "NomeBairro": "BARRA DA TIJUCA",
+                    "LogradouroCampus": "AVENIDA ARMANDO LOMBARDI, Nº 940",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "22640000"
+                  },
+                  "CodCampus": 2161,
+                  "NomeCampus": "BARRA I - IBMEC"
+                },
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 1631,
+              "NomeCurso": "MBA EM GESTÃO DE NEGÓCIOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "RJ",
+                    "NomeMunicipio": "RIO DE JANEIRO",
+                    "NomeBairro": "BARRA DA TIJUCA",
+                    "LogradouroCampus": "AVENIDA ARMANDO LOMBARDI, Nº 940",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "22640000"
+                  },
+                  "CodCampus": 2161,
+                  "NomeCampus": "BARRA I - IBMEC"
+                },
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4552,
+              "NomeCurso": "MBA EM GESTÃO DE PROCESSOS - BPM",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 972,
+              "NomeCurso": "MBA EM GESTÃO DE PROJETOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "RJ",
+                    "NomeMunicipio": "RIO DE JANEIRO",
+                    "NomeBairro": "BARRA DA TIJUCA",
+                    "LogradouroCampus": "AVENIDA ARMANDO LOMBARDI, Nº 940",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "22640000"
+                  },
+                  "CodCampus": 2161,
+                  "NomeCampus": "BARRA I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 3642,
+              "NomeCurso": "MBA EM GESTAO ESTRATEGICA NO VAREJO",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4556,
+              "NomeCurso": "MBA EM INOVAÇÃO E TEC.EM SERV. FIN.",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4557,
+              "NomeCurso": "MBA EM LOGÍSTICA",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            }
+          ],
+          "cursosPOS": [
+            {
+              "CodCurso": 4406,
+              "NomeCurso": "LLM DIREITO EMPRESARIAL",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "RJ",
+                    "NomeMunicipio": "RIO DE JANEIRO",
+                    "NomeBairro": "BARRA DA TIJUCA",
+                    "LogradouroCampus": "AVENIDA ARMANDO LOMBARDI, Nº 940",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "22640000"
+                  },
+                  "CodCampus": 2161,
+                  "NomeCampus": "BARRA I - IBMEC"
+                },
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5042,
+              "NomeCurso": "LLM EM DIREITO SOCIETÁRIO E MERCADO DE CAPITAIS",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 3772,
+              "NomeCurso": "LLM EM DIREITO TRIBU. E CONTAB. TRIBUT.",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "RJ",
+                    "NomeMunicipio": "RIO DE JANEIRO",
+                    "NomeBairro": "BARRA DA TIJUCA",
+                    "LogradouroCampus": "AVENIDA ARMANDO LOMBARDI, Nº 940",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "22640000"
+                  },
+                  "CodCampus": 2161,
+                  "NomeCampus": "BARRA I - IBMEC"
+                },
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5043,
+              "NomeCurso": "MASTER EM COMPLIANCE",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "RJ",
+                    "NomeMunicipio": "RIO DE JANEIRO",
+                    "NomeBairro": "BARRA DA TIJUCA",
+                    "LogradouroCampus": "AVENIDA ARMANDO LOMBARDI, Nº 940",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "22640000"
+                  },
+                  "CodCampus": 2161,
+                  "NomeCampus": "BARRA I - IBMEC"
+                },
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5045,
+              "NomeCurso": "MASTER EM DIREITO PENAL ECONOMICO",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5050,
+              "NomeCurso": "MBA EM FINANÇAS E CONTROLADORIA",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "RJ",
+                    "NomeMunicipio": "RIO DE JANEIRO",
+                    "NomeBairro": "BARRA DA TIJUCA",
+                    "LogradouroCampus": "AVENIDA ARMANDO LOMBARDI, Nº 940",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "22640000"
+                  },
+                  "CodCampus": 2161,
+                  "NomeCampus": "BARRA I - IBMEC"
+                },
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5048,
+              "NomeCurso": "MBA EM LIDERANÇA E DESENVOLVIMENTO DE PESSOAS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5049,
+              "NomeCurso": "MBA EM MERCADO DE CAPITAIS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5051,
+              "NomeCurso": "PÓS GRADUAÇÃO EM GESTÃO EMPRESARIAL",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 63118,
+                  "NomeMunicipio": "RIO DE JANEIRO",
+        "estado": "RIO DE JANEIRO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "RJ",
+                    "NomeMunicipio": "RIO DE JANEIRO",
+                    "NomeBairro": "BARRA DA TIJUCA",
+                    "LogradouroCampus": "AVENIDA ARMANDO LOMBARDI, Nº 940",
+                    "ComplementoEndereco": "LADO PAR",
+                    "CEPCampus": "22640000"
+                  },
+                  "CodCampus": 2161,
+                  "NomeCampus": "BARRA I - IBMEC"
+                },
+                {
+                  "InfoEndereco": {
+                    "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "20030020"
+                  },
+                  "CodCampus": 2173,
+                  "NomeCampus": "CENTRO I - IBMEC"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "estado": "SANTA CATARINA",
+        "uf": "SC",
+        "listaCursos": {
+          "cursosMBA": [
+            {
+              "CodCurso": 2777,
+              "NomeCurso": "MBA EM FINANÇAS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 78700,
+                  "NomeMunicipio": "SAO JOSE",
+        "estado": "SANTA CATARINA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SC",
+                    "NomeMunicipio": "SAO JOSE",
+                    "NomeBairro": "BARREIROS",
+                    "LogradouroCampus": "R LAUDELINO SOUZA FILHO, 389",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "88117338"
+                  },
+                  "CodCampus": 3440,
+                  "NomeCampus": "UNIDADE PÓS - BARREIROS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 1631,
+              "NomeCurso": "MBA EM GESTÃO DE NEGÓCIOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 78700,
+                  "NomeMunicipio": "SAO JOSE",
+        "estado": "SANTA CATARINA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SC",
+                    "NomeMunicipio": "SAO JOSE",
+                    "NomeBairro": "BARREIROS",
+                    "LogradouroCampus": "R LAUDELINO SOUZA FILHO, 389",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "88117338"
+                  },
+                  "CodCampus": 3440,
+                  "NomeCampus": "UNIDADE PÓS - BARREIROS"
+                }
+              ]
+            },
+            {
+              "CodCurso": 972,
+              "NomeCurso": "MBA EM GESTÃO DE PROJETOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 78700,
+                  "NomeMunicipio": "SAO JOSE",
+        "estado": "SANTA CATARINA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SC",
+                    "NomeMunicipio": "SAO JOSE",
+                    "NomeBairro": "BARREIROS",
+                    "LogradouroCampus": "R LAUDELINO SOUZA FILHO, 389",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "88117338"
+                  },
+                  "CodCampus": 3440,
+                  "NomeCampus": "UNIDADE PÓS - BARREIROS"
+                }
+              ]
+            }
+          ],
+          "cursosPOS": [
+            {
+              "CodCurso": 5030,
+              "NomeCurso": "LLM EM DIREITO CORPORATIVO",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 78700,
+                  "NomeMunicipio": "SAO JOSE",
+        "estado": "SANTA CATARINA"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SC",
+                    "NomeMunicipio": "SAO JOSE",
+                    "NomeBairro": "BARREIROS",
+                    "LogradouroCampus": "R LAUDELINO SOUZA FILHO, 389",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "88117338"
+                  },
+                  "CodCampus": 3440,
+                  "NomeCampus": "UNIDADE PÓS - BARREIROS"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "estado": "SÃO PAULO",
+        "uf": "SP",
+        "listaCursos": {
+          "cursosMBA": [
+            {
+              "CodCurso": 4438,
+              "NomeCurso": "GLOBAL - MBA BUSINESS MANAGEMENT",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4975,
+              "NomeCurso": "MBA EM BI & DATA SCIENCE",
+              "NomeArea": "TECNOLOGIA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4977,
+              "NomeCurso": "MBA EM CIO & IT MANAGEMENT",
+              "NomeArea": "TECNOLOGIA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4976,
+              "NomeCurso": "MBA EM CLOUD COMPUTING",
+              "NomeArea": "TECNOLOGIA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4978,
+              "NomeCurso": "MBA EM CYBER SECURITY",
+              "NomeArea": "TECNOLOGIA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 2777,
+              "NomeCurso": "MBA EM FINANÇAS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 87327,
+                  "NomeMunicipio": "RIBEIRÃO PRETO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "RIBEIRÃO PRETO",
+                    "NomeBairro": "RIBEIRANIA",
+                    "LogradouroCampus": "R ABRAHAO ISSA HALACK, 980",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "14096160"
+                  },
+                  "CodCampus": 3438,
+                  "NomeCampus": "UNIDADE PÓS - RIBEIRANIA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 1595,
+              "NomeCurso": "MBA EM GESTÃO DE MARKETING",
+              "NomeArea": "MARKETING E VENDAS",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 1631,
+              "NomeCurso": "MBA EM GESTÃO DE NEGÓCIOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 87327,
+                  "NomeMunicipio": "RIBEIRÃO PRETO",
+        "estado": "SÃO PAULO"
+                },
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "RIBEIRÃO PRETO",
+                    "NomeBairro": "RIBEIRANIA",
+                    "LogradouroCampus": "R ABRAHAO ISSA HALACK, 980",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "14096160"
+                  },
+                  "CodCampus": 3438,
+                  "NomeCampus": "UNIDADE PÓS - RIBEIRANIA"
+                },
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 972,
+              "NomeCurso": "MBA EM GESTÃO DE PROJETOS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 87327,
+                  "NomeMunicipio": "RIBEIRÃO PRETO",
+        "estado": "SÃO PAULO"
+                },
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "RIBEIRÃO PRETO",
+                    "NomeBairro": "RIBEIRANIA",
+                    "LogradouroCampus": "R ABRAHAO ISSA HALACK, 980",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "14096160"
+                  },
+                  "CodCampus": 3438,
+                  "NomeCampus": "UNIDADE PÓS - RIBEIRANIA"
+                },
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5041,
+              "NomeCurso": "MBA EM GESTÃO PARA MÉDICOS",
+              "NomeArea": "MÉDICA",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            }
+          ],
+          "cursosPOS": [
+            {
+              "CodCurso": 4453,
+              "NomeCurso": "LL.M. EM ARBITRAGEM COMERCIAL",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 4406,
+              "NomeCurso": "LLM DIREITO EMPRESARIAL",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5030,
+              "NomeCurso": "LLM EM DIREITO CORPORATIVO",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 87327,
+                  "NomeMunicipio": "RIBEIRÃO PRETO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "RIBEIRÃO PRETO",
+                    "NomeBairro": "RIBEIRANIA",
+                    "LogradouroCampus": "R ABRAHAO ISSA HALACK, 980",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "14096160"
+                  },
+                  "CodCampus": 3438,
+                  "NomeCampus": "UNIDADE PÓS - RIBEIRANIA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5042,
+              "NomeCurso": "LLM EM DIREITO SOCIETÁRIO E MERCADO DE CAPITAIS",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5043,
+              "NomeCurso": "MASTER EM COMPLIANCE",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5046,
+              "NomeCurso": "MASTER EM DIREITO CORPORATIVO",
+              "NomeArea": "DIREITO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5050,
+              "NomeCurso": "MBA EM FINANÇAS E CONTROLADORIA",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5048,
+              "NomeCurso": "MBA EM LIDERANÇA E DESENVOLVIMENTO DE PESSOAS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5049,
+              "NomeCurso": "MBA EM MERCADO DE CAPITAIS",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            },
+            {
+              "CodCurso": 5051,
+              "NomeCurso": "PÓS GRADUAÇÃO EM GESTÃO EMPRESARIAL",
+              "NomeArea": "GESTÃO",
+              "listaCidadesComPolo": [
+                {
+                  "CodMunicipio": 88412,
+                  "NomeMunicipio": "SÃO PAULO",
+        "estado": "SÃO PAULO"
+                }
+              ],
+              "listaNomeCampos": [
+                {
+                  "InfoEndereco": {
+                    "SiglaUF": "SP",
+                    "NomeMunicipio": "SÃO PAULO",
+                    "NomeBairro": "CERQUEIRA CESAR",
+                    "LogradouroCampus": "ALAMEDA SANTOS, Nº 2356",
+                    "ComplementoEndereco": "",
+                    "CEPCampus": "01418200"
+                  },
+                  "CodCampus": 2159,
+                  "NomeCampus": "PAULISTA"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "nome": "ibmecOnline",
+    "data": [
+      {
+        "nome": "MBA EM GERENCIAMENTO DE PROJETOS",
+        "link": "https://www.ibmeconline.com.br/cursos/gerenciamento-de-projetos"
+      },
+      {
+        "nome": "MBA EM FINANÇAS",
+        "link": "https://www.ibmeconline.com.br/cursos/financas"
+      },
+      {
+        "nome": "MBA EM GESTÃO DE NEGÓCIOS",
+        "link": "https://www.ibmeconline.com.br/cursos/gestao-de-negocios"
+      },
+      {
+        "nome": "MBA GESTÃO DE PESSOAS",
+        "link": "https://www.ibmec.br/ibmec-online/cursos/mba/gestao-e-negocios/gestao-de-pessoas"
+      },
+      {
+        "nome": "MBA CONTROLADORIA",
+        "link": "https://www.ibmec.br/ibmec-online/cursos/mba/financas/controladoria"
+      },
+      {
+        "nome": "MBA GESTÃO DE PROCESSOS E METODOLOGIAS ÁGEIS",
+        "link": "https://www.ibmec.br/ibmec-online/cursos/mba/gestao-e-negocios/gestao-de-processos-e-metodologias-ageis"
+      },
+      {
+        "nome": "MBA MARKETING, BRANDING E CONSUMO DIGITAL",
+        "link": "https://www.ibmec.br/ibmec-online/cursos/mba/comunicacao/marketing-branding-e-consumo-digital"
+      },
+      {
+        "nome": "MBA GESTÃO DO AGRONEGÓCIO",
+        "link": "https://www.ibmec.br/ibmec-online/cursos/mba/agro/gestao-do-agronegocio"
+      },
+      {
+        "nome": "MBA DIREITO AGRÁRIO E AMBIENTAL",
+        "link": "https://www.ibmec.br/ibmec-online/cursos/mba/agro/direito-agrario-e-ambiental"
+      }
+    ]
+  }
+]
