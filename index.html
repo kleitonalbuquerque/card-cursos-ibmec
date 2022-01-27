@@ -7,14 +7,15 @@
     <title>Document</title>
   </head>
   <body>
-    <select id="banana"></select
+    <select id="modalidade"></select
     ><br />
-    <select id="uva"></select
+    <select id="cidade"></select
     ><br />
-    <select id="pera"></select
+    <select id="unidade"></select
     ><br />
-    <select id="maca"></select>
+    <select id="curso"></select>
     <p id="demo"></p>
+    <a href="" target="_blank">SAIBA MAIS</a>
   </body>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -23,7 +24,7 @@
       $.getJSON("data.json", function (data) {
         $.each(data, function (i, obj) {
           console.log(obj);
-          $("#banana").append(
+          $("#modalidade").append(
             $("<option>", {
               value: obj.valor,
               text: obj.titulo,
@@ -31,10 +32,26 @@
           );
         });
 
-        $("#banana").change(function () {
+        $("#modalidade").change(function () {
           //Pegando o novo valor selecionado no combo
           var valor = $(this).val();
-          console.log(valor);
+          $.getJSON("data.json", function (data) {
+            $.each(data, function (i, obj) {
+              console.log('obj',obj)
+              if (valor === obj.valor) {
+                var dados = obj.data;
+                $.each(dados, function (i, curso) {
+                  $("#curso").append(
+                    $("<option>", {
+                      value: i,
+                      text: curso.nome,
+                    })
+                  );
+                  $("a").attr("href", curso.link);
+                });
+              }
+            });
+          });
           // carregaCombo2(curso);
         });
       });
