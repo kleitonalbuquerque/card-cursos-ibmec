@@ -37,17 +37,23 @@
           var valor = $(this).val();
           $.getJSON("data.json", function (data) {
             $.each(data, function (i, obj) {
-              console.log('obj',obj)
+              console.log("obj", obj);
               if (valor === obj.valor) {
                 var dados = obj.data;
                 $.each(dados, function (i, curso) {
+                  console.log("curso", curso);
                   $("#curso").append(
                     $("<option>", {
                       value: i,
                       text: curso.nome,
                     })
                   );
-                  $("a").attr("href", curso.link);
+                  $("#curso").change(function () {
+                    var cursoSelecionado = $("#curso :selected").text();
+                    if (cursoSelecionado === curso.nome) {
+                      $("a").attr("href", curso.link);
+                    }
+                  });
                 });
               }
             });
