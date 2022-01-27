@@ -1,6 +1,11 @@
 [
   {
-    "nome": "posIbmec",
+    "valor": "",
+    "titulo": "Escolha a modalidade"
+  },
+  {
+    "valor": "posIbmec",
+    "titulo": "Pós IBMEC",
     "data": [
       {
         "estado": "AMAZONAS",
@@ -2569,7 +2574,8 @@
     ]
   },
   {
-    "nome": "ibmecOnline",
+    "valor": "ibmecOnline",
+    "titulo": "IBMEC Online",
     "data": [
       {
         "nome": "MBA EM GERENCIAMENTO DE PROJETOS",

@@ -14,33 +14,29 @@
     <select id="pera"></select
     ><br />
     <select id="maca"></select>
-    <div id="teste"></div>
+    <p id="demo"></p>
   </body>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     $(document).ready(function () {
       $.getJSON("data.json", function (data) {
-        var dataArrPosPresencial = data[0];
-        var dataArrPosOnline = data[1];
-        var arrayOptionModalidade = [
-          "Escolha a modalidade",
-          dataArrPosPresencial.nome,
-          dataArrPosOnline.nome,
-        ];
-
-        arrayOptionModalidade.forEach(function (item) {
+        $.each(data, function (i, obj) {
+          console.log(obj);
           $("#banana").append(
-            "<option value=" + item + ">" + item + "</option>"
+            $("<option>", {
+              value: obj.valor,
+              text: obj.titulo,
+            })
           );
-          // console.log(item);
-          var modalidade = item;
         });
 
-        console.log(arrayOptionModalidade);
-        console.log(dataArrPosPresencial.data);
-        console.log(dataArrPosOnline.data);
-        $("div").append(dataArrPosPresencial.nome);
+        $("#banana").change(function () {
+          //Pegando o novo valor selecionado no combo
+          var valor = $(this).val();
+          console.log(valor);
+          // carregaCombo2(curso);
+        });
       });
     });
   </script>
