@@ -37,28 +37,53 @@
           var valor = $(this).val();
           $.getJSON("data.json", function (data) {
             $.each(data, function (i, obj) {
-              console.log("obj", obj);
+              console.log("valor", valor);
               if (valor === obj.valor) {
                 var dados = obj.data;
-                $.each(dados, function (i, curso) {
-                  console.log("curso", curso);
-                  $("#curso").append(
-                    $("<option>", {
-                      value: i,
-                      text: curso.nome,
-                    })
-                  );
-                  $("#curso").change(function () {
-                    var cursoSelecionado = $("#curso :selected").text();
-                    if (cursoSelecionado === curso.nome) {
-                      $("a").attr("href", curso.link);
-                    }
+                if (valor === "ibmecOnline") {
+                  $.each(dados, function (i, curso) {
+                    $("#curso").append(
+                      $("<option>", {
+                        value: i,
+                        text: curso.nome,
+                      })
+                    );
+                    $("#curso").change(function () {
+                      var cursoSelecionado = $("#curso :selected").text();
+                      if (cursoSelecionado === curso.nome) {
+                        $("a").attr("href", curso.link);
+                      }
+                    });
                   });
-                });
+                } else {
+                  $.each(dados, function (i, estados) {
+                    console.log("estados", estados);
+                    $("#cidade").append(
+                      $("<option>", {
+                        value: i,
+                        text: estados.estado,
+                      })
+                    );
+                    $("#cidade").change(function () {
+                      var cidadeSelecionada = $("#cidade :selected").text();
+                      if (cidadeSelecionada === estados.estado) {
+                        var ufParaBotao = estados.uf;
+                        $.each(dados, function (i, listaTodos) {
+                          console.log("listaTodos", listaTodos);
+                          /*$("#unidade").append(
+                            $("<option>", {
+                              value: i,
+                              text: estados.estado,
+                            })
+                          );*/
+                        });
+                      }
+                    });
+                  });
+                }
               }
             });
           });
-          // carregaCombo2(curso);
         });
       });
     });

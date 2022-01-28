@@ -8,8 +8,9 @@
     "titulo": "Pós IBMEC",
     "data": [
       {
-        "estado": "AMAZONAS",
-        "uf": "AM",
+        "estado": "Escolha a cidade"
+      },
+      {
         "listaCursos": {
           "cursosMBA": [
             {
@@ -20,7 +21,8 @@
                 {
                   "CodMunicipio": 2054,
                   "NomeMunicipio": "MANAUS",
-                  "estado": "AMAZONAS"
+                  "estado": "AMAZONAS",
+                  "UF": "AM"
                 }
               ],
               "listaNomeCampos": [
@@ -46,7 +48,8 @@
                 {
                   "CodMunicipio": 2054,
                   "NomeMunicipio": "MANAUS",
-                  "estado": "AMAZONAS"
+                  "estado": "AMAZONAS",
+                  "UF": "AM"
                 }
               ],
               "listaNomeCampos": [
@@ -72,7 +75,8 @@
                 {
                   "CodMunicipio": 2054,
                   "NomeMunicipio": "MANAUS",
-                  "estado": "AMAZONAS"
+                  "estado": "AMAZONAS",
+                  "UF": "AM"
                 }
               ],
               "listaNomeCampos": [
@@ -100,7 +104,8 @@
                 {
                   "CodMunicipio": 2054,
                   "NomeMunicipio": "MANAUS",
-                  "estado": "AMAZONAS"
+                  "estado": "AMAZONAS",
+                  "UF": "AM"
                 }
               ],
               "listaNomeCampos": [
@@ -122,8 +127,6 @@
         }
       },
       {
-        "estado": "BAHIA",
-        "uf": "BA",
         "listaCursos": {
           "cursosMBA": [
             {
@@ -134,7 +137,8 @@
                 {
                   "CodMunicipio": 8974,
                   "NomeMunicipio": "SALVADOR",
-                  "estado": "BAHIA"
+                  "estado": "BAHIA",
+                  "UF": "BA"
                 }
               ],
               "listaNomeCampos": [
@@ -160,7 +164,8 @@
                 {
                   "CodMunicipio": 8974,
                   "NomeMunicipio": "SALVADOR",
-                  "estado": "BAHIA"
+                  "estado": "BAHIA",
+                  "UF": "BA"
                 }
               ],
               "listaNomeCampos": [
@@ -186,7 +191,8 @@
                 {
                   "CodMunicipio": 8974,
                   "NomeMunicipio": "SALVADOR",
-                  "estado": "BAHIA"
+                  "estado": "BAHIA",
+                  "UF": "BA"
                 }
               ],
               "listaNomeCampos": [
@@ -214,7 +220,8 @@
                 {
                   "CodMunicipio": 8974,
                   "NomeMunicipio": "SALVADOR",
-                  "estado": "BAHIA"
+                  "estado": "BAHIA",
+                  "UF": "BA"
                 }
               ],
               "listaNomeCampos": [
@@ -236,8 +243,6 @@
         }
       },
       {
-        "estado": "DISTRITO FEDERAL",
-        "uf": "DF",
         "listaCursos": {
           "cursosMBA": [
             {
@@ -248,7 +253,8 @@
                 {
                   "CodMunicipio": 15890,
                   "NomeMunicipio": "BRASILIA",
-                  "estado": "DISTRITO FEDERAL"
+                  "estado": "DISTRITO FEDERAL",
+                  "UF": "DF"
                 }
               ],
               "listaNomeCampos": [
@@ -274,7 +280,8 @@
                 {
                   "CodMunicipio": 15890,
                   "NomeMunicipio": "BRASILIA",
-                  "estado": "DISTRITO FEDERAL"
+                  "estado": "DISTRITO FEDERAL",
+                  "UF": "DF"
                 }
               ],
               "listaNomeCampos": [
@@ -300,7 +307,8 @@
                 {
                   "CodMunicipio": 15890,
                   "NomeMunicipio": "BRASILIA",
-                  "estado": "DISTRITO FEDERAL"
+                  "estado": "DISTRITO FEDERAL",
+                  "UF": "DF"
                 }
               ],
               "listaNomeCampos": [
@@ -326,7 +334,8 @@
                 {
                   "CodMunicipio": 15890,
                   "NomeMunicipio": "BRASILIA",
-                  "estado": "DISTRITO FEDERAL"
+                  "estado": "DISTRITO FEDERAL",
+                  "UF": "DF"
                 }
               ],
               "listaNomeCampos": [
@@ -352,7 +361,8 @@
                 {
                   "CodMunicipio": 15890,
                   "NomeMunicipio": "BRASILIA",
-                  "estado": "DISTRITO FEDERAL"
+                  "estado": "DISTRITO FEDERAL",
+                  "UF": "DF"
                 }
               ],
               "listaNomeCampos": [
@@ -380,7 +390,8 @@
                 {
                   "CodMunicipio": 15890,
                   "NomeMunicipio": "BRASILIA",
-                  "estado": "DISTRITO FEDERAL"
+                  "estado": "DISTRITO FEDERAL",
+                  "UF": "DF"
                 }
               ],
               "listaNomeCampos": [
@@ -405,7 +416,9 @@
               "listaCidadesComPolo": [
                 {
                   "CodMunicipio": 15890,
-                  "NomeMunicipio": "BRASILIA"
+                  "NomeMunicipio": "BRASILIA",
+                  "estado": "DISTRITO FEDERAL",
+                  "UF": "DF"
                 }
               ],
               "listaNomeCampos": [
@@ -430,7 +443,9 @@
               "listaCidadesComPolo": [
                 {
                   "CodMunicipio": 15890,
-                  "NomeMunicipio": "BRASILIA"
+                  "NomeMunicipio": "BRASILIA",
+                  "estado": "DISTRITO FEDERAL",
+                  "UF": "DF"
                 }
               ],
               "listaNomeCampos": [
@@ -455,7 +470,9 @@
               "listaCidadesComPolo": [
                 {
                   "CodMunicipio": 15890,
-                  "NomeMunicipio": "BRASILIA"
+                  "NomeMunicipio": "BRASILIA",
+                  "estado": "DISTRITO FEDERAL",
+                  "UF": "DF"
                 }
               ],
               "listaNomeCampos": [
@@ -480,7 +497,9 @@
               "listaCidadesComPolo": [
                 {
                   "CodMunicipio": 15890,
-                  "NomeMunicipio": "BRASILIA"
+                  "NomeMunicipio": "BRASILIA",
+                  "estado": "DISTRITO FEDERAL",
+                  "UF": "DF"
                 }
               ],
               "listaNomeCampos": [
@@ -505,7 +524,9 @@
               "listaCidadesComPolo": [
                 {
                   "CodMunicipio": 15890,
-                  "NomeMunicipio": "BRASILIA"
+                  "NomeMunicipio": "BRASILIA",
+                  "estado": "DISTRITO FEDERAL",
+                  "UF": "DF"
                 }
               ],
               "listaNomeCampos": [
@@ -530,7 +551,9 @@
               "listaCidadesComPolo": [
                 {
                   "CodMunicipio": 15890,
-                  "NomeMunicipio": "BRASILIA"
+                  "NomeMunicipio": "BRASILIA",
+                  "estado": "DISTRITO FEDERAL",
+                  "UF": "DF"
                 }
               ],
               "listaNomeCampos": [
@@ -555,7 +578,9 @@
               "listaCidadesComPolo": [
                 {
                   "CodMunicipio": 15890,
-                  "NomeMunicipio": "BRASILIA"
+                  "NomeMunicipio": "BRASILIA",
+                  "estado": "DISTRITO FEDERAL",
+                  "UF": "DF"
                 }
               ],
               "listaNomeCampos": [
@@ -580,7 +605,9 @@
               "listaCidadesComPolo": [
                 {
                   "CodMunicipio": 15890,
-                  "NomeMunicipio": "BRASILIA"
+                  "NomeMunicipio": "BRASILIA",
+                  "estado": "DISTRITO FEDERAL",
+                  "UF": "DF"
                 }
               ],
               "listaNomeCampos": [
@@ -605,7 +632,9 @@
               "listaCidadesComPolo": [
                 {
                   "CodMunicipio": 15890,
-                  "NomeMunicipio": "BRASILIA"
+                  "NomeMunicipio": "BRASILIA",
+                  "estado": "DISTRITO FEDERAL",
+                  "UF": "DF"
                 }
               ],
               "listaNomeCampos": [
@@ -627,8 +656,6 @@
         }
       },
       {
-        "estado": "MINAS GERAIS",
-        "uf": "MG",
         "listaCursos": {
           "cursosMBA": [
             {
@@ -639,7 +666,8 @@
                 {
                   "CodMunicipio": 25666,
                   "NomeMunicipio": "BELO HORIZONTE",
-                  "estado": "MINAS GERAIS"
+                  "estado": "MINAS GERAIS",
+                  "UF": "MG"
                 }
               ],
               "listaNomeCampos": [
@@ -665,7 +693,8 @@
                 {
                   "CodMunicipio": 25666,
                   "NomeMunicipio": "BELO HORIZONTE",
-                  "estado": "MINAS GERAIS"
+                  "estado": "MINAS GERAIS",
+                  "UF": "MG"
                 }
               ],
               "listaNomeCampos": [
@@ -691,7 +720,8 @@
                 {
                   "CodMunicipio": 25666,
                   "NomeMunicipio": "BELO HORIZONTE",
-                  "estado": "MINAS GERAIS"
+                  "estado": "MINAS GERAIS",
+                  "UF": "MG"
                 }
               ],
               "listaNomeCampos": [
@@ -717,7 +747,8 @@
                 {
                   "CodMunicipio": 25666,
                   "NomeMunicipio": "BELO HORIZONTE",
-                  "estado": "MINAS GERAIS"
+                  "estado": "MINAS GERAIS",
+                  "UF": "MG"
                 }
               ],
               "listaNomeCampos": [
@@ -743,7 +774,8 @@
                 {
                   "CodMunicipio": 25666,
                   "NomeMunicipio": "BELO HORIZONTE",
-                  "estado": "MINAS GERAIS"
+                  "estado": "MINAS GERAIS",
+                  "UF": "MG"
                 }
               ],
               "listaNomeCampos": [
@@ -769,7 +801,8 @@
                 {
                   "CodMunicipio": 25666,
                   "NomeMunicipio": "BELO HORIZONTE",
-                  "estado": "MINAS GERAIS"
+                  "estado": "MINAS GERAIS",
+                  "UF": "MG"
                 }
               ],
               "listaNomeCampos": [
@@ -795,7 +828,8 @@
                 {
                   "CodMunicipio": 25666,
                   "NomeMunicipio": "BELO HORIZONTE",
-                  "estado": "MINAS GERAIS"
+                  "estado": "MINAS GERAIS",
+                  "UF": "MG"
                 }
               ],
               "listaNomeCampos": [
@@ -821,7 +855,8 @@
                 {
                   "CodMunicipio": 25666,
                   "NomeMunicipio": "BELO HORIZONTE",
-                  "estado": "MINAS GERAIS"
+                  "estado": "MINAS GERAIS",
+                  "UF": "MG"
                 }
               ],
               "listaNomeCampos": [
@@ -847,7 +882,8 @@
                 {
                   "CodMunicipio": 25666,
                   "NomeMunicipio": "BELO HORIZONTE",
-                  "estado": "MINAS GERAIS"
+                  "estado": "MINAS GERAIS",
+                  "UF": "MG"
                 }
               ],
               "listaNomeCampos": [
@@ -873,7 +909,8 @@
                 {
                   "CodMunicipio": 25666,
                   "NomeMunicipio": "BELO HORIZONTE",
-                  "estado": "MINAS GERAIS"
+                  "estado": "MINAS GERAIS",
+                  "UF": "MG"
                 }
               ],
               "listaNomeCampos": [
@@ -901,7 +938,8 @@
                 {
                   "CodMunicipio": 25666,
                   "NomeMunicipio": "BELO HORIZONTE",
-                  "estado": "MINAS GERAIS"
+                  "estado": "MINAS GERAIS",
+                  "UF": "MG"
                 }
               ],
               "listaNomeCampos": [
@@ -927,7 +965,8 @@
                 {
                   "CodMunicipio": 25666,
                   "NomeMunicipio": "BELO HORIZONTE",
-                  "estado": "MINAS GERAIS"
+                  "estado": "MINAS GERAIS",
+                  "UF": "MG"
                 }
               ],
               "listaNomeCampos": [
@@ -953,7 +992,8 @@
                 {
                   "CodMunicipio": 25666,
                   "NomeMunicipio": "BELO HORIZONTE",
-                  "estado": "MINAS GERAIS"
+                  "estado": "MINAS GERAIS",
+                  "UF": "MG"
                 }
               ],
               "listaNomeCampos": [
@@ -979,7 +1019,8 @@
                 {
                   "CodMunicipio": 25666,
                   "NomeMunicipio": "BELO HORIZONTE",
-                  "estado": "MINAS GERAIS"
+                  "estado": "MINAS GERAIS",
+                  "UF": "MG"
                 }
               ],
               "listaNomeCampos": [
@@ -1001,8 +1042,6 @@
         }
       },
       {
-        "estado": "PERNAMBUCO",
-        "uf": "PE",
         "listaCursos": {
           "cursosMBA": [
             {
@@ -1013,7 +1052,8 @@
                 {
                   "CodMunicipio": 51136,
                   "NomeMunicipio": "RECIFE",
-                  "estado": "PERNAMBUCO"
+                  "estado": "PERNAMBUCO",
+                  "UF": "PE"
                 }
               ],
               "listaNomeCampos": [
@@ -1039,7 +1079,8 @@
                 {
                   "CodMunicipio": 51136,
                   "NomeMunicipio": "RECIFE",
-                  "estado": "PERNAMBUCO"
+                  "estado": "PERNAMBUCO",
+                  "UF": "PE"
                 }
               ],
               "listaNomeCampos": [
@@ -1065,7 +1106,8 @@
                 {
                   "CodMunicipio": 51136,
                   "NomeMunicipio": "RECIFE",
-                  "estado": "PERNAMBUCO"
+                  "estado": "PERNAMBUCO",
+                  "UF": "PE"
                 }
               ],
               "listaNomeCampos": [
@@ -1093,7 +1135,8 @@
                 {
                   "CodMunicipio": 51136,
                   "NomeMunicipio": "RECIFE",
-                  "estado": "PERNAMBUCO"
+                  "estado": "PERNAMBUCO",
+                  "UF": "PE"
                 }
               ],
               "listaNomeCampos": [
@@ -1115,8 +1158,6 @@
         }
       },
       {
-        "estado": "PIAUÍ",
-        "uf": "PI",
         "listaCursos": {
           "cursosMBA": [
             {
@@ -1127,7 +1168,8 @@
                 {
                   "CodMunicipio": 53465,
                   "NomeMunicipio": "TERESINA",
-                  "estado": "PIAUÍ"
+                  "estado": "PIAUÍ",
+                  "UF": "PI"
                 }
               ],
               "listaNomeCampos": [
@@ -1153,7 +1195,8 @@
                 {
                   "CodMunicipio": 53465,
                   "NomeMunicipio": "TERESINA",
-                  "estado": "PIAUÍ"
+                  "estado": "PIAUÍ",
+                  "UF": "PI"
                 }
               ],
               "listaNomeCampos": [
@@ -1179,7 +1222,8 @@
                 {
                   "CodMunicipio": 53465,
                   "NomeMunicipio": "TERESINA",
-                  "estado": "PIAUÍ"
+                  "estado": "PIAUÍ",
+                  "UF": "PI"
                 }
               ],
               "listaNomeCampos": [
@@ -1207,7 +1251,8 @@
                 {
                   "CodMunicipio": 53465,
                   "NomeMunicipio": "TERESINA",
-                  "estado": "PIAUÍ"
+                  "estado": "PIAUÍ",
+                  "UF": "PI"
                 }
               ],
               "listaNomeCampos": [
@@ -1229,8 +1274,6 @@
         }
       },
       {
-        "estado": "RIO DE JANEIRO",
-        "UF": "RJ",
         "listaCursos": {
           "cursosMBA": [
             {
@@ -1242,7 +1285,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1278,7 +1322,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1313,7 +1358,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1348,7 +1394,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1383,7 +1430,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1418,7 +1466,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1441,7 +1490,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1476,7 +1526,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1511,7 +1562,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1534,7 +1586,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1560,7 +1613,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1583,7 +1637,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1606,7 +1661,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1631,7 +1687,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1666,7 +1723,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1689,7 +1747,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1724,7 +1783,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1759,7 +1819,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1782,7 +1843,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1817,7 +1879,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1840,7 +1903,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1863,7 +1927,8 @@
                 {
                   "CodMunicipio": 63118,
                   "NomeMunicipio": "RIO DE JANEIRO",
-                  "estado": "RIO DE JANEIRO"
+                  "estado": "RIO DE JANEIRO",
+                  "UF": "RJ"
                 }
               ],
               "listaNomeCampos": [
@@ -1894,8 +1959,6 @@
         }
       },
       {
-        "estado": "SANTA CATARINA",
-        "uf": "SC",
         "listaCursos": {
           "cursosMBA": [
             {
@@ -1906,7 +1969,8 @@
                 {
                   "CodMunicipio": 78700,
                   "NomeMunicipio": "SAO JOSE",
-                  "estado": "SANTA CATARINA"
+                  "estado": "SANTA CATARINA",
+                  "UF": "SC"
                 }
               ],
               "listaNomeCampos": [
@@ -1932,7 +1996,8 @@
                 {
                   "CodMunicipio": 78700,
                   "NomeMunicipio": "SAO JOSE",
-                  "estado": "SANTA CATARINA"
+                  "estado": "SANTA CATARINA",
+                  "UF": "SC"
                 }
               ],
               "listaNomeCampos": [
@@ -1958,7 +2023,8 @@
                 {
                   "CodMunicipio": 78700,
                   "NomeMunicipio": "SAO JOSE",
-                  "estado": "SANTA CATARINA"
+                  "estado": "SANTA CATARINA",
+                  "UF": "SC"
                 }
               ],
               "listaNomeCampos": [
@@ -1986,7 +2052,8 @@
                 {
                   "CodMunicipio": 78700,
                   "NomeMunicipio": "SAO JOSE",
-                  "estado": "SANTA CATARINA"
+                  "estado": "SANTA CATARINA",
+                  "UF": "SC"
                 }
               ],
               "listaNomeCampos": [
@@ -2008,8 +2075,6 @@
         }
       },
       {
-        "estado": "SÃO PAULO",
-        "uf": "SP",
         "listaCursos": {
           "cursosMBA": [
             {
@@ -2020,7 +2085,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2046,7 +2112,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2072,7 +2139,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2098,7 +2166,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2124,7 +2193,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2150,7 +2220,8 @@
                 {
                   "CodMunicipio": 87327,
                   "NomeMunicipio": "RIBEIRÃO PRETO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2176,7 +2247,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2202,12 +2274,14 @@
                 {
                   "CodMunicipio": 87327,
                   "NomeMunicipio": "RIBEIRÃO PRETO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 },
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2245,12 +2319,14 @@
                 {
                   "CodMunicipio": 87327,
                   "NomeMunicipio": "RIBEIRÃO PRETO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 },
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2288,7 +2364,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2316,7 +2393,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2342,7 +2420,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2368,7 +2447,8 @@
                 {
                   "CodMunicipio": 87327,
                   "NomeMunicipio": "RIBEIRÃO PRETO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2394,7 +2474,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2420,7 +2501,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2446,7 +2528,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2472,7 +2555,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2498,7 +2582,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2524,7 +2609,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
@@ -2550,7 +2636,8 @@
                 {
                   "CodMunicipio": 88412,
                   "NomeMunicipio": "SÃO PAULO",
-                  "estado": "SÃO PAULO"
+                  "estado": "SÃO PAULO",
+                  "UF": "SP"
                 }
               ],
               "listaNomeCampos": [
