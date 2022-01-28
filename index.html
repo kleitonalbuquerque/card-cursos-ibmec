@@ -57,27 +57,25 @@
                   });
                 } else {
                   $.each(dados, function (i, estados) {
-                    console.log("estados", estados);
-                    $("#cidade").append(
-                      $("<option>", {
-                        value: i,
-                        text: estados.estado,
-                      })
-                    );
-                    $("#cidade").change(function () {
-                      var cidadeSelecionada = $("#cidade :selected").text();
-                      if (cidadeSelecionada === estados.estado) {
-                        var ufParaBotao = estados.uf;
-                        $.each(dados, function (i, listaTodos) {
-                          console.log("listaTodos", listaTodos);
-                          /*$("#unidade").append(
+                    var listaTodosCursos = [];
+                    var listaCursos = estados.listaCursos;
+                    $.each(listaCursos, function (i, cursos) {
+                      cursos.forEach((element) => {
+                        console.log(element);
+                      });
+                      /*$("#cidade").append(
                             $("<option>", {
-                              value: i,
-                              text: estados.estado,
+                              value: element.CodMunicipio,
+                              text: element.NomeMunicipio,
                             })
-                          );*/
-                        });
-                      }
+                          );
+                          $("#cidade").change(function () {
+                            var cidadeSelecionado =
+                              $("#cidade :selected").text();
+                            if (cidadeSelecionado === curso.nome) {
+                              $("a").attr("href", curso.link);
+                            }
+                          });*/
                     });
                   });
                 }
