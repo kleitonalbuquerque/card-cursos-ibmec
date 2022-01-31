@@ -9,11 +9,12 @@
   <body>
     <select id="modalidade"></select
     ><br />
+    <select id="curso"></select>
+    <br />
     <select id="cidade"></select
     ><br />
     <select id="unidade"></select
     ><br />
-    <select id="curso"></select>
     <p id="demo"></p>
     <a href="" target="_blank">SAIBA MAIS</a>
   </body>
@@ -35,11 +36,20 @@
         $("#modalidade").change(function () {
           //Pegando o novo valor selecionado no combo
           var valor = $(this).val();
+          if (valor == "ibmecOnline") {
+            $("#cidade").hide();
+            $("#unidade").hide();
+          } else {
+            $("#cidade").show();
+            $("#unidade").show();
+          }
+          console.log("valor: " + valor);
           $.getJSON("data.json", function (data) {
             $.each(data, function (i, obj) {
-              console.log("obj", obj);
+              console.log("obj: ", obj);
               if (valor === obj.valor) {
                 var dados = obj.data;
+                $("#curso option").remove();
                 $.each(dados, function (i, curso) {
                   console.log("curso", curso);
                   $("#curso").append(
