@@ -69,6 +69,7 @@
                     disabled: true,
                   })
                 );
+                // Monta option dos cursos
                 $.each(dados, function (i, curso) {
                   console.log("curso", curso);
                   $("#curso").append(
@@ -85,6 +86,52 @@
                     }
                   });
                 });
+
+                // Monta option cidades
+                var cidades = [];
+                $.each(dados, function (i, cidade) {
+                  for (var i = 0; i < cidade.listaCidadesComPolo.length; i++) {
+                    console.log(cidade.listaCidadesComPolo[i]);
+                    var codigoMunicipio =
+                      cidade.listaCidadesComPolo[i].CodMunicipio;
+                    console.log("código: ", codigoMunicipio);
+                    var nomeMunicipio =
+                      cidade.listaCidadesComPolo[i].NomeMunicipio;
+                    console.log("cidade: " + nomeMunicipio);
+                    var uf = cidade.listaCidadesComPolo[i].UF;
+                    console.log("uf: ", uf);
+                    var testeCidade = cidades.push(
+                      cidade.listaCidadesComPolo[i].NomeMunicipio
+                    );
+                  }
+
+                  $("#cidade").append(
+                    $("<option>", {
+                      value: codigoMunicipio,
+                      text: nomeMunicipio,
+                    })
+                  );
+                  // Cria link para cursos online
+                  $("#cidade").change(function () {
+                    var cidadeSelecionada = $("#cidade :selected").text();
+                    console.log("text" + cidadeSelecionada);
+                    if (cidadeSelecionada === nomeMunicipio) {
+                      // $("a").attr("href", curso.link);
+                    }
+                  });
+                });
+
+                // Monta array sem duplicidade
+                function pqp(list) {
+                  var result = [];
+                  $.each(list, function (i, el) {
+                    if ($.inArray(el, result) == -1) {
+                      result.push(el);
+                    }
+                  });
+                  console.log(result);
+                }
+                pqp(cidades);
               }
             });
           });
