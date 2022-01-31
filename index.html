@@ -12,10 +12,6 @@
         Escolha a modalidade
       </option></select
     ><br />
-    <select id="curso">
-      <option value="semCurso" selected disabled>Escolha seu curso</option>
-    </select>
-    <br />
     <select id="cidade">
       <option value="semCidade" selected disabled>
         Escolha a cidade
@@ -26,6 +22,9 @@
         Escolha a unidade
       </option></select
     ><br />
+    <select id="curso">
+      <option value="semCurso" selected disabled>Escolha seu curso</option>
+    </select>
     <p id="demo"></p>
     <a href="" target="_blank">SAIBA MAIS</a>
   </body>
@@ -105,12 +104,12 @@
                     );
                   }
 
-                  $("#cidade").append(
-                    $("<option>", {
-                      value: codigoMunicipio,
-                      text: nomeMunicipio,
-                    })
-                  );
+                  // $("#cidade").append(
+                  //   $("<option>", {
+                  //     value: codigoMunicipio,
+                  //     text: nomeMunicipio,
+                  //   })
+                  // );
                   // Cria link para cursos online
                   $("#cidade").change(function () {
                     var cidadeSelecionada = $("#cidade :selected").text();
@@ -124,9 +123,15 @@
                 // Monta array sem duplicidade
                 function pqp(list) {
                   var result = [];
-                  $.each(list, function (i, el) {
-                    if ($.inArray(el, result) == -1) {
-                      result.push(el);
+                  $.each(list, function (i, cidade) {
+                    if ($.inArray(cidade, result) == -1) {
+                      result.push(cidade);
+                      $("#cidade").append(
+                        $("<option>", {
+                          value: i,
+                          text: cidade,
+                        })
+                      );
                     }
                   });
                   console.log(result);
