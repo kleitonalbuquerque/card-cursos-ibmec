@@ -46,6 +46,7 @@
           console.log("valor: " + valor);
           $.getJSON("data.json", function (data) {
             $.each(data, function (i, obj) {
+<<<<<<< HEAD
               console.log("obj: ", obj);
               if (valor === obj.valor) {
                 var dados = obj.data;
@@ -63,12 +64,53 @@
                     if (cursoSelecionado === curso.nome) {
                       $("a").attr("href", curso.link);
                     }
+=======
+              console.log("valor", valor);
+              if (valor === obj.valor) {
+                var dados = obj.data;
+                if (valor === "ibmecOnline") {
+                  $.each(dados, function (i, curso) {
+                    $("#curso").append(
+                      $("<option>", {
+                        value: i,
+                        text: curso.nome,
+                      })
+                    );
+                    $("#curso").change(function () {
+                      var cursoSelecionado = $("#curso :selected").text();
+                      if (cursoSelecionado === curso.nome) {
+                        $("a").attr("href", curso.link);
+                      }
+                    });
+>>>>>>> 9ccf197808950a163dcd4df615ce62ebc5a849a5
                   });
-                });
+                } else {
+                  $.each(dados, function (i, estados) {
+                    var listaTodosCursos = [];
+                    var listaCursos = estados.listaCursos;
+                    $.each(listaCursos, function (i, cursos) {
+                      cursos.forEach((element) => {
+                        console.log(element);
+                      });
+                      /*$("#cidade").append(
+                            $("<option>", {
+                              value: element.CodMunicipio,
+                              text: element.NomeMunicipio,
+                            })
+                          );
+                          $("#cidade").change(function () {
+                            var cidadeSelecionado =
+                              $("#cidade :selected").text();
+                            if (cidadeSelecionado === curso.nome) {
+                              $("a").attr("href", curso.link);
+                            }
+                          });*/
+                    });
+                  });
+                }
               }
             });
           });
-          // carregaCombo2(curso);
         });
       });
     });
