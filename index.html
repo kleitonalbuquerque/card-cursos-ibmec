@@ -7,13 +7,24 @@
     <title>Document</title>
   </head>
   <body>
-    <select id="modalidade"></select
+    <select id="modalidade">
+      <option value="semModalidade" selected disabled>
+        Escolha a modalidade
+      </option></select
     ><br />
-    <select id="curso"></select>
+    <select id="curso">
+      <option value="semCurso" selected disabled>Escolha seu curso</option>
+    </select>
     <br />
-    <select id="cidade"></select
+    <select id="cidade">
+      <option value="semCidade" selected disabled>
+        Escolha a cidade
+      </option></select
     ><br />
-    <select id="unidade"></select
+    <select id="unidade">
+      <option value="semUnidade" selected disabled>
+        Escolha a unidade
+      </option></select
     ><br />
     <p id="demo"></p>
     <a href="" target="_blank">SAIBA MAIS</a>
@@ -50,17 +61,25 @@
               if (valor === obj.valor) {
                 var dados = obj.data;
                 $("#curso option").remove();
+                $("#curso").append(
+                  $("<option>", {
+                    value: "semCurso",
+                    text: "Escolha seu curso",
+                    selected: true,
+                    disabled: true,
+                  })
+                );
                 $.each(dados, function (i, curso) {
                   console.log("curso", curso);
                   $("#curso").append(
                     $("<option>", {
                       value: i,
-                      text: curso.nome,
+                      text: curso.NomeCurso,
                     })
                   );
                   $("#curso").change(function () {
                     var cursoSelecionado = $("#curso :selected").text();
-                    if (cursoSelecionado === curso.nome) {
+                    if (cursoSelecionado === curso.NomeCurso) {
                       $("a").attr("href", curso.link);
                     }
                   });
