@@ -26,7 +26,7 @@
       <option value="semCurso" selected disabled>Escolha seu curso</option>
     </select>
     <p id="demo"></p>
-    <a href="" target="_blank">SAIBA MAIS</a>
+    <a target="_blank">SAIBA MAIS</a>
   </body>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -153,24 +153,68 @@
 
                 $("#unidade").change(function () {
                   var unidadeSelecionada = $("#unidade :selected").text();
+                  codigoCampusSelecionado = "";
+                  $("#curso option").remove();
+                  $("#curso").append(
+                    $("<option>", {
+                      value: "semCurso",
+                      text: "Escolha seu curso",
+                      selected: true,
+                      disabled: true,
+                    })
+                  );
                   dados.forEach((curso) => {
                     curso.listaNomeCampos.forEach((item) => {
-                      if (
-                        item.InfoEndereco.NomeMunicipio === cidadeAchadaNoArray
-                      ) {
-                        if (item.CodCampus === 2161) {
+                      if (item.NomeCampus === unidadeSelecionada) {
+                        if (item.CodCampus != 2161) {
                           codigoCampusSelecionado = item.CodCampus;
                         } else {
-                          codigoCampusSelecionado = item.CodCampus;
+                          codigoCampusSelecionado = 2161;
                         }
+
+                        console.log(
+                          "codigoCampusSelecionado",
+                          codigoCampusSelecionado
+                        );
+
+                        $("#curso").append(
+                          $("<option>", {
+                            value: curso.CodCurso,
+                            text: curso.NomeCurso,
+                          })
+                        );
+                        // Cria link para cursos online
+                        $("#curso").change(function () {
+                          var cursoSelecionado = $("#curso :selected").val();
+                          if (cursoSelecionado == curso.CodCurso) {
+                            var urlBase = "https://posgraduacao.ibmec.br/";
+                            //$("a").attr("href", urlBase + "?uf="+uf+);
+
+                            $("a").attr(
+                              "href",
+                              urlBase +
+                                "?uf=" +
+                                uf +
+                                "&curso=" +
+                                cursoSelecionado +
+                                "&cidade=" +
+                                codigoMunicipio +
+                                "&campus=" +
+                                codigoCampusSelecionado
+                            );
+                            //TODO: link
+                          }
+                        });
                       }
                     });
-
-                    console.log(curso.length)
-                    //TODO: criar lista de curso
                   });
+                  console.log(
+                    "codigoCampusSelecionado FORA if",
+                    codigoCampusSelecionado
+                  );
                 });
               }
+
               // // Monta option dos cursos
               // $.each(dados, function (i, curso) {
               //   console.log("curso", curso);
@@ -258,30 +302,6 @@
                   if ($.inArray(cidade, result) == -1) {
                     result.push(cidade);
                     $("#unidade").append(optionUnidade);
-                  }
-                });
-              }
-
-              function removeDuplicadosCursos(list) {
-                var result = [];
-                $("#unidade option").remove();
-                $("#unidade").append(
-                  $("<option>", {
-                    value: "semUnidade",
-                    text: "Escolha a unidade",
-                    selected: true,
-                    disabled: true,
-                  })
-                );
-                $.each(list, function (i, cidade) {
-                  if ($.inArray(cidade, result) == -1) {
-                    result.push(cidade);
-                    $("#unidade").append(
-                      $("<option>", {
-                        value: i,
-                        text: cidade,
-                      })
-                    );
                   }
                 });
               }
