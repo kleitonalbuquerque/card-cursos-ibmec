@@ -72,6 +72,8 @@
       $("#voltar").click(function () {
         $("#comboSelect").hide();
         $("#botoes").show();
+
+        window.location.reload();
       });
 
       $.getJSON("data.json", function (data) {
