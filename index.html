@@ -54,6 +54,7 @@
             $("#unidade").show();
           }
           console.log("valor: " + valor);
+
           $.getJSON("data.json", function (data) {
             $.each(data, function (i, obj) {
               console.log("obj: ", obj);
@@ -68,9 +69,9 @@
                     disabled: true,
                   })
                 );
-                // Monta option dos cursos
+                // Monta combo cursos
                 $.each(dados, function (i, curso) {
-                  console.log("curso", curso);
+                  // console.log("curso", curso);
                   $("#curso").append(
                     $("<option>", {
                       value: i,
@@ -86,36 +87,63 @@
                   });
                 });
 
-                // Monta option cidades
+                // Monta combo cidades
                 var cidades = [];
                 $.each(dados, function (i, cidade) {
                   for (var i = 0; i < cidade.listaCidadesComPolo.length; i++) {
                     console.log(cidade.listaCidadesComPolo[i]);
                     var codigoMunicipio =
                       cidade.listaCidadesComPolo[i].CodMunicipio;
-                    console.log("código: ", codigoMunicipio);
+                    // console.log("código: ", codigoMunicipio);
                     var nomeMunicipio =
                       cidade.listaCidadesComPolo[i].NomeMunicipio;
-                    console.log("cidade: " + nomeMunicipio);
+                    // console.log("cidade: " + nomeMunicipio);
                     var uf = cidade.listaCidadesComPolo[i].UF;
-                    console.log("uf: ", uf);
+                    // console.log("uf: ", uf);
                     var testeCidade = cidades.push(
                       cidade.listaCidadesComPolo[i].NomeMunicipio
                     );
                   }
 
-                  // $("#cidade").append(
-                  //   $("<option>", {
-                  //     value: codigoMunicipio,
-                  //     text: nomeMunicipio,
-                  //   })
-                  // );
-                  // Cria link para cursos online
+                  // Monta combo unidades
                   $("#cidade").change(function () {
                     var cidadeSelecionada = $("#cidade :selected").text();
-                    console.log("text" + cidadeSelecionada);
+                    console.log("cidadeSelecionada: " + cidadeSelecionada);
+
                     if (cidadeSelecionada === nomeMunicipio) {
+                      var unidadeFederativa = uf;
+                      console.log("UF: ", unidadeFederativa);
+
+                      $("#unidade option").remove();
+
+                      $("#unidade").append(
+                        $("<option>", {
+                          value: codigoMunicipio,
+                          text: nomeMunicipio,
+                        })
+                      );
+
+                      console.log("codMunicipio: ", codigoMunicipio);
+                      console.log("nomeMunicipio: ", nomeMunicipio);
+
+                      var url = "https://posgraduacao.ibmec.br/";
+
                       // $("a").attr("href", curso.link);
+                      console.log(url + "?uf=" + unidadeFederativa);
+
+                      // LINK PRESENCIAL QUASE TERMNADO
+                      $("a").attr(
+                        "href",
+                        url +
+                          "?uf=" +
+                          unidadeFederativa +
+                          "&curso=" +
+                          codCurso +
+                          "&cidade=" +
+                          codigoMunicipio +
+                          "&campus=" +
+                          codCampus
+                      );
                     }
                   });
                 });
@@ -135,7 +163,7 @@
                       );
                     }
                   });
-                  console.log(result);
+                  console.log("cidades: ", result);
                 }
                 pqp(cidades);
               }
