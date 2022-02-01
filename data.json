@@ -1,7 +1,7 @@
 [
   {
     "valor": "posIbmec",
-    "titulo": "Pós IBMEC",
+    "titulo": "Presencial",
     "data": [
       {
         "CodCurso": 2777,
@@ -2695,7 +2695,7 @@
   },
   {
     "valor": "ibmecOnline",
-    "titulo": "IBMEC Online",
+    "titulo": "Online",
     "data": [
       {
         "NomeCurso": "MBA EM GERENCIAMENTO DE PROJETOS",

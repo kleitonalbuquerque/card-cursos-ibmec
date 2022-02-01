@@ -7,26 +7,36 @@
     <title>Document</title>
   </head>
   <body>
-    <select id="modalidade">
-      <option value="semModalidade" selected disabled>
-        Escolha a modalidade
-      </option></select
-    ><br />
-    <select id="cidade">
-      <option value="semCidade" selected disabled>
-        Escolha a cidade
-      </option></select
-    ><br />
-    <select id="unidade">
-      <option value="semUnidade" selected disabled>
-        Escolha a unidade
-      </option></select
-    ><br />
-    <select id="curso">
-      <option value="semCurso" selected disabled>Escolha seu curso</option>
-    </select>
-    <p id="demo"></p>
-    <a target="_blank">SAIBA MAIS</a>
+    <div id="botoes">
+      <button id="POS">POS</button>
+      <button id="MBA">MBA</button>
+      <button id="LLM">LLM</button>
+      <button id="MASTER">MASTER</button>
+      <button id="GLOBAL">GLOBAL</button>
+    </div>
+    <div id="comboSelect">
+      <div id="voltar"><--</div>
+      <select id="modalidade">
+        <option value="semModalidade" selected disabled>
+          Escolha a modalidade
+        </option></select
+      ><br />
+      <select id="cidade">
+        <option value="semCidade" selected disabled>
+          Escolha a cidade
+        </option></select
+      ><br />
+      <select id="unidade">
+        <option value="semUnidade" selected disabled>
+          Escolha a unidade
+        </option></select
+      ><br />
+      <select id="curso">
+        <option value="semCurso" selected disabled>Escolha seu curso</option>
+      </select>
+      <p id="demo"></p>
+      <a target="_blank">SAIBA MAIS</a>
+    </div>
   </body>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -39,10 +49,31 @@
       var codigoCampusSelecionado;
       var nomeCampusSelecionado;
       var codigoCursoSelecionado;
-      var testeCidade;
       var listaCursoFiltrada = [];
 
       var listaCampus = [];
+      var btnClidado;
+
+      $("#comboSelect").hide();
+
+      $("#botoes").click(function (e) {
+        btnClidado = e.target.innerText;
+        console.log(btnClidado);
+        $("#comboSelect").show();
+        $("#botoes").hide();
+
+        if (btnClidado !== "MBA") {
+          $("#modalidade option[value = ibmecOnline]").hide();
+        } else {
+          $("#modalidade option[value = ibmecOnline]").show();
+        }
+      });
+
+      $("#voltar").click(function () {
+        $("#comboSelect").hide();
+        $("#botoes").show();
+      });
+
       $.getJSON("data.json", function (data) {
         $.each(data, function (i, obj) {
           $("#modalidade").append(
@@ -111,9 +142,7 @@
                       cidade.listaCidadesComPolo[i].CodMunicipio;
                     nomeMunicipio = cidade.listaCidadesComPolo[i].NomeMunicipio;
                     uf = cidade.listaCidadesComPolo[i].UF;
-                    testeCidade = cidades.push(
-                      cidade.listaCidadesComPolo[i].NomeMunicipio
-                    );
+                    cidades.push(cidade.listaCidadesComPolo[i].NomeMunicipio);
                   }
                 });
 
@@ -166,6 +195,8 @@
                   dados.forEach((curso) => {
                     curso.listaNomeCampos.forEach((item) => {
                       if (item.NomeCampus === unidadeSelecionada) {
+                        console.log(curso);
+
                         if (item.CodCampus != 2161) {
                           codigoCampusSelecionado = item.CodCampus;
                         } else {
@@ -176,35 +207,36 @@
                           "codigoCampusSelecionado",
                           codigoCampusSelecionado
                         );
+                        if (btnClidado == curso.tipoCurso) {
+                          $("#curso").append(
+                            $("<option>", {
+                              value: curso.CodCurso,
+                              text: curso.NomeCurso,
+                            })
+                          );
+                          // Cria link para cursos online
+                          $("#curso").change(function () {
+                            var cursoSelecionado = $("#curso :selected").val();
+                            if (cursoSelecionado == curso.CodCurso) {
+                              var urlBase = "https://posgraduacao.ibmec.br/";
+                              //$("a").attr("href", urlBase + "?uf="+uf+);
 
-                        $("#curso").append(
-                          $("<option>", {
-                            value: curso.CodCurso,
-                            text: curso.NomeCurso,
-                          })
-                        );
-                        // Cria link para cursos online
-                        $("#curso").change(function () {
-                          var cursoSelecionado = $("#curso :selected").val();
-                          if (cursoSelecionado == curso.CodCurso) {
-                            var urlBase = "https://posgraduacao.ibmec.br/";
-                            //$("a").attr("href", urlBase + "?uf="+uf+);
-
-                            $("a").attr(
-                              "href",
-                              urlBase +
-                                "?uf=" +
-                                uf +
-                                "&curso=" +
-                                cursoSelecionado +
-                                "&cidade=" +
-                                codigoMunicipio +
-                                "&campus=" +
-                                codigoCampusSelecionado
-                            );
-                            //TODO: link
-                          }
-                        });
+                              $("a").attr(
+                                "href",
+                                urlBase +
+                                  "?uf=" +
+                                  uf +
+                                  "&curso=" +
+                                  cursoSelecionado +
+                                  "&cidade=" +
+                                  codigoMunicipio +
+                                  "&campus=" +
+                                  codigoCampusSelecionado
+                              );
+                              //TODO: link
+                            }
+                          });
+                        }
                       }
                     });
                   });
