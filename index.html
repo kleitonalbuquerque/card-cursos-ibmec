@@ -127,22 +127,24 @@
                       console.log("nomeMunicipio: ", nomeMunicipio);
 
                       var url = "https://posgraduacao.ibmec.br/";
+                      var codigoCurso = "codigoCurso";
+                      var codigoCampus = "codigoCampus";
 
                       // $("a").attr("href", curso.link);
                       console.log(url + "?uf=" + unidadeFederativa);
 
-                      // LINK PRESENCIAL QUASE TERMNADO
+                      // LINK PRESENCIAL TODO: codCurso e codCampus
                       $("a").attr(
                         "href",
                         url +
                           "?uf=" +
                           unidadeFederativa +
                           "&curso=" +
-                          codCurso +
+                          codigoCurso +
                           "&cidade=" +
                           codigoMunicipio +
                           "&campus=" +
-                          codCampus
+                          codigoCampus
                       );
                     }
                   });
