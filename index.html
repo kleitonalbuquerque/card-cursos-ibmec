@@ -202,11 +202,6 @@
                         } else {
                           codigoCampusSelecionado = 2161;
                         }
-
-                        console.log(
-                          "codigoCampusSelecionado",
-                          codigoCampusSelecionado
-                        );
                         if (btnClidado == curso.tipoCurso) {
                           $("#curso").append(
                             $("<option>", {
@@ -214,7 +209,7 @@
                               text: curso.NomeCurso,
                             })
                           );
-                          // Cria link para cursos online
+                          // Cria link para cursos presencial
                           $("#curso").change(function () {
                             var cursoSelecionado = $("#curso :selected").val();
                             if (cursoSelecionado == curso.CodCurso) {
@@ -233,17 +228,23 @@
                                   "&campus=" +
                                   codigoCampusSelecionado
                               );
-                              //TODO: link
                             }
                           });
+                        } //TODO: criar mensagem quando não existir curso disponível e adicionar o hover da seta
+                        else {
+                          curso.forEach((item) => {
+                            console.log("aqui", item[0]);
+                          });
+                          // $("#curso").append(
+                          //   $("<option>", {
+                          //     value: "semCursoDisponivel",
+                          //     text: "Não encotramos nenhum curso",
+                          //   })
+                          // );
                         }
                       }
                     });
                   });
-                  console.log(
-                    "codigoCampusSelecionado FORA if",
-                    codigoCampusSelecionado
-                  );
                 });
               }
 
