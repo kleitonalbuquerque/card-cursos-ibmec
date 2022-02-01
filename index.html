@@ -54,19 +54,19 @@
 
       var listaCampus = [];
       var listaCursoFiltrado = [];
-      var btnClidado;
+      var btnClicado;
 
       $("#comboSelect").hide();
 
       $("#botoes").click(function (e) {
         //pega o nome da opção clicada
-        btnClidado = e.target.innerText;
+        btnClicado = e.target.innerText;
         $("#comboSelect").show();
         $("#botoes").hide();
         $("#sem-oferta-curso").hide();
 
         //esconde o campo se a opção clicada não for mba
-        if (btnClidado !== "MBA") {
+        if (btnClicado !== "MBA") {
           $("#modalidade option[value = ibmecOnline]").hide();
         } else {
           $("#modalidade option[value = ibmecOnline]").show();
@@ -221,7 +221,7 @@
                         } else {
                           codigoCampusSelecionado = 2161;
                         }
-                        if (btnClidado == curso.tipoCurso) {
+                        if (btnClicado == curso.tipoCurso) {
                           listaCursoFiltrado.push(curso);
                           $("#curso").append(
                             $("<option>", {
@@ -262,10 +262,10 @@
                           );
                         }
                       } else {
-                        $("#sem-oferta-curso").show();
-                        $("#sem-oferta-curso").html(
-                          "<p style='margn:0; font-size:2rem'>Nenhum curso encontrado</p>"
-                        );
+                        // $("#sem-oferta-curso").show();
+                        // $("#sem-oferta-curso").html(
+                        //   "<p style='margn:0; font-size:2rem'>Nenhum curso encontrado</p>"
+                        // );
                       }
                     });
                   });
