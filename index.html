@@ -15,7 +15,7 @@
       <button id="GLOBAL">GLOBAL</button>
     </div>
     <div id="comboSelect">
-      <div id="voltar"><--</div>
+      <div style="cursor: pointer" id="voltar"><--</div>
       <select id="modalidade">
         <option value="semModalidade" selected disabled>
           Escolha a modalidade
@@ -197,7 +197,12 @@
                   dados.forEach((curso) => {
                     curso.listaNomeCampos.forEach((item) => {
                       if (item.NomeCampus === unidadeSelecionada) {
-                        console.log(curso);
+                        // console.log(curso);
+                        // Pega texto do option
+                        $("#curso").change(function () {
+                          var teste = $("#curso :selected").text();
+                          console.log(teste);
+                        });
 
                         if (item.CodCampus != 2161) {
                           codigoCampusSelecionado = item.CodCampus;
@@ -234,9 +239,9 @@
                           });
                         } //TODO: criar mensagem quando não existir curso disponível e adicionar o hover da seta
                         else {
-                          curso.forEach((item) => {
-                            console.log("aqui", item[0]);
-                          });
+                          // curso.forEach((item) => {
+                          //   console.log("aqui", item[0]);
+                          // });
                           // $("#curso").append(
                           //   $("<option>", {
                           //     value: "semCursoDisponivel",
