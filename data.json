@@ -1,7 +1,7 @@
 [
   {
     "valor": "posIbmec",
-    "titulo": "Pós IBMEC",
+    "titulo": "Presencial",
     "data": [
       {
         "CodCurso": 2777,
@@ -89,7 +89,7 @@
       },
       {
         "CodCurso": 5030,
-        "NomeCurso": "LLM EM DIREITO CORPORATIVO",
+        "NomeCurso": "LL.M EM DIREITO CORPORATIVO",
         "tipoCurso": "LLM",
         "NomeArea": "DIREITO",
         "listaCidadesComPolo": [
@@ -201,7 +201,7 @@
       },
       {
         "CodCurso": 5030,
-        "NomeCurso": "LLM EM DIREITO CORPORATIVO",
+        "NomeCurso": "LL.M EM DIREITO CORPORATIVO",
         "tipoCurso": "LLM",
         "NomeArea": "DIREITO",
         "listaCidadesComPolo": [
@@ -229,7 +229,7 @@
       },
       {
         "CodCurso": 4406,
-        "NomeCurso": "LLM DIREITO EMPRESARIAL",
+        "NomeCurso": "LL.M DIREITO EMPRESARIAL",
         "tipoCurso": "LLM",
         "NomeArea": "DIREITO",
         "listaCidadesComPolo": [
@@ -257,7 +257,7 @@
       },
       {
         "CodCurso": 3772,
-        "NomeCurso": "LLM EM DIREITO TRIBU. E CONTAB. TRIBUT.",
+        "NomeCurso": "LL.M EM DIREITO TRIBU. E CONTAB. TRIBUT.",
         "tipoCurso": "LLM",
         "NomeArea": "DIREITO",
         "listaCidadesComPolo": [
@@ -929,7 +929,7 @@
       },
       {
         "CodCurso": 4406,
-        "NomeCurso": "LLM DIREITO EMPRESARIAL",
+        "NomeCurso": "LL.M DIREITO EMPRESARIAL",
         "tipoCurso": "LLM",
         "NomeArea": "DIREITO",
         "listaCidadesComPolo": [
@@ -1125,7 +1125,7 @@
       },
       {
         "CodCurso": 5030,
-        "NomeCurso": "LLM EM DIREITO CORPORATIVO",
+        "NomeCurso": "LL.M EM DIREITO CORPORATIVO",
         "tipoCurso": "LLM",
         "NomeArea": "DIREITO",
         "listaCidadesComPolo": [
@@ -1237,7 +1237,7 @@
       },
       {
         "CodCurso": 5030,
-        "NomeCurso": "LLM EM DIREITO CORPORATIVO",
+        "NomeCurso": "LL.M EM DIREITO CORPORATIVO",
         "tipoCurso": "LLM",
         "NomeArea": "DIREITO",
         "listaCidadesComPolo": [
@@ -1294,7 +1294,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1332,7 +1333,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1369,7 +1371,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1406,7 +1409,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1443,7 +1447,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1468,7 +1473,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1505,7 +1511,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1542,7 +1549,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1567,7 +1575,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1620,7 +1629,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1645,7 +1655,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1670,7 +1681,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1679,7 +1691,7 @@
       },
       {
         "CodCurso": 4406,
-        "NomeCurso": "LLM DIREITO EMPRESARIAL",
+        "NomeCurso": "LL.M DIREITO EMPRESARIAL",
         "tipoCurso": "LLM",
         "NomeArea": "DIREITO",
         "listaCidadesComPolo": [
@@ -1707,7 +1719,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1716,7 +1729,7 @@
       },
       {
         "CodCurso": 5042,
-        "NomeCurso": "LLM EM DIREITO SOCIETÁRIO E MERCADO DE CAPITAIS",
+        "NomeCurso": "LL.M EM DIREITO SOCIETÁRIO E MERCADO DE CAPITAIS",
         "tipoCurso": "LLM",
         "NomeArea": "DIREITO",
         "listaCidadesComPolo": [
@@ -1732,7 +1745,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1741,7 +1755,7 @@
       },
       {
         "CodCurso": 3772,
-        "NomeCurso": "LLM EM DIREITO TRIBU. E CONTAB. TRIBUT.",
+        "NomeCurso": "LL.M EM DIREITO TRIBU. E CONTAB. TRIBUT.",
         "tipoCurso": "LLM",
         "NomeArea": "DIREITO",
         "listaCidadesComPolo": [
@@ -1769,7 +1783,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1806,7 +1821,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1831,7 +1847,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1868,7 +1885,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1893,7 +1911,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1918,7 +1937,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -1955,7 +1975,8 @@
             "InfoEndereco": {
               "LogradouroCampus": "AVENIDA PRESIDENTE WILSON, Nº 118",
               "ComplementoEndereco": "",
-              "CEPCampus": "20030020"
+              "CEPCampus": "20030020",
+              "NomeMunicipio": "RIO DE JANEIRO"
             },
             "CodCampus": 2173,
             "NomeCampus": "CENTRO I - IBMEC"
@@ -2048,7 +2069,7 @@
       },
       {
         "CodCurso": 5030,
-        "NomeCurso": "LLM EM DIREITO CORPORATIVO",
+        "NomeCurso": "LL.M EM DIREITO CORPORATIVO",
         "tipoCurso": "LLM",
         "NomeArea": "DIREITO",
         "listaCidadesComPolo": [
@@ -2420,7 +2441,7 @@
       },
       {
         "CodCurso": 4406,
-        "NomeCurso": "LLM DIREITO EMPRESARIAL",
+        "NomeCurso": "LL.M DIREITO EMPRESARIAL",
         "tipoCurso": "LLM",
         "NomeArea": "DIREITO",
         "listaCidadesComPolo": [
@@ -2448,7 +2469,7 @@
       },
       {
         "CodCurso": 5030,
-        "NomeCurso": "LLM EM DIREITO CORPORATIVO",
+        "NomeCurso": "LL.M EM DIREITO CORPORATIVO",
         "tipoCurso": "LLM",
         "NomeArea": "DIREITO",
         "listaCidadesComPolo": [
@@ -2476,7 +2497,7 @@
       },
       {
         "CodCurso": 5042,
-        "NomeCurso": "LLM EM DIREITO SOCIETÁRIO E MERCADO DE CAPITAIS",
+        "NomeCurso": "LL.M EM DIREITO SOCIETÁRIO E MERCADO DE CAPITAIS",
         "tipoCurso": "LLM",
         "NomeArea": "DIREITO",
         "listaCidadesComPolo": [
@@ -2674,7 +2695,7 @@
   },
   {
     "valor": "ibmecOnline",
-    "titulo": "IBMEC Online",
+    "titulo": "Online",
     "data": [
       {
         "NomeCurso": "MBA EM GERENCIAMENTO DE PROJETOS",

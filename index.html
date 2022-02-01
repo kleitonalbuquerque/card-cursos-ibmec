@@ -7,34 +7,75 @@
     <title>Document</title>
   </head>
   <body>
-    <select id="modalidade">
-      <option value="semModalidade" selected disabled>
-        Escolha a modalidade
-      </option></select
-    ><br />
-    <select id="cidade">
-      <option value="semCidade" selected disabled>
-        Escolha a cidade
-      </option></select
-    ><br />
-    <select id="unidade">
-      <option value="semUnidade" selected disabled>
-        Escolha a unidade
-      </option></select
-    ><br />
-    <select id="curso">
-      <option value="semCurso" selected disabled>Escolha seu curso</option>
-    </select>
-    <p id="demo"></p>
-    <a href="" target="_blank">SAIBA MAIS</a>
+    <div id="botoes">
+      <button id="POS">POS</button>
+      <button id="MBA">MBA</button>
+      <button id="LLM">LLM</button>
+      <button id="MASTER">MASTER</button>
+      <button id="GLOBAL">GLOBAL</button>
+    </div>
+    <div id="comboSelect">
+      <div id="voltar"><--</div>
+      <select id="modalidade">
+        <option value="semModalidade" selected disabled>
+          Escolha a modalidade
+        </option></select
+      ><br />
+      <select id="cidade">
+        <option value="semCidade" selected disabled>
+          Escolha a cidade
+        </option></select
+      ><br />
+      <select id="unidade">
+        <option value="semUnidade" selected disabled>
+          Escolha a unidade
+        </option></select
+      ><br />
+      <select id="curso">
+        <option value="semCurso" selected disabled>Escolha seu curso</option>
+      </select>
+      <p id="demo"></p>
+      <a target="_blank">SAIBA MAIS</a>
+    </div>
   </body>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     $(document).ready(function () {
+      var cidades = [];
+      var nomeMunicipio;
+      var codigoMunicipio;
+      var uf;
+      var codigoCampusSelecionado;
+      var nomeCampusSelecionado;
+      var codigoCursoSelecionado;
+      var listaCursoFiltrada = [];
+
+      var listaCampus = [];
+      var btnClidado;
+
+      $("#comboSelect").hide();
+
+      $("#botoes").click(function (e) {
+        btnClidado = e.target.innerText;
+        console.log(btnClidado);
+        $("#comboSelect").show();
+        $("#botoes").hide();
+
+        if (btnClidado !== "MBA") {
+          $("#modalidade option[value = ibmecOnline]").hide();
+        } else {
+          $("#modalidade option[value = ibmecOnline]").show();
+        }
+      });
+
+      $("#voltar").click(function () {
+        $("#comboSelect").hide();
+        $("#botoes").show();
+      });
+
       $.getJSON("data.json", function (data) {
         $.each(data, function (i, obj) {
-          console.log(obj);
           $("#modalidade").append(
             $("<option>", {
               value: obj.valor,
@@ -42,24 +83,23 @@
             })
           );
         });
+      });
 
-        $("#modalidade").change(function () {
-          //Pegando o novo valor selecionado no combo
-          var valor = $(this).val();
-          if (valor == "ibmecOnline") {
-            $("#cidade").hide();
-            $("#unidade").hide();
-          } else {
-            $("#cidade").show();
-            $("#unidade").show();
-          }
-          console.log("valor: " + valor);
-
-          $.getJSON("data.json", function (data) {
-            $.each(data, function (i, obj) {
-              console.log("obj: ", obj);
-              if (valor === obj.valor) {
-                var dados = obj.data;
+      $("#modalidade").change(function () {
+        //Pegando o novo valor selecionado no combo
+        var valor = $(this).val();
+        if (valor == "ibmecOnline") {
+          $("#cidade").hide();
+          $("#unidade").hide();
+        } else {
+          $("#cidade").show();
+          $("#unidade").show();
+        }
+        $.getJSON("data.json", function (data) {
+          $.each(data, function (i, obj) {
+            if (valor === obj.valor) {
+              var dados = obj.data;
+              if (valor == "ibmecOnline") {
                 $("#curso option").remove();
                 $("#curso").append(
                   $("<option>", {
@@ -69,9 +109,9 @@
                     disabled: true,
                   })
                 );
-                // Monta combo cursos
+                // Monta option dos cursos
                 $.each(dados, function (i, curso) {
-                  // console.log("curso", curso);
+                  console.log("curso", curso);
                   $("#curso").append(
                     $("<option>", {
                       value: i,
@@ -86,90 +126,219 @@
                     }
                   });
                 });
-
-                // Monta combo cidades
-                var cidades = [];
+              } else {
+                $("#curso option").remove();
+                $("#curso").append(
+                  $("<option>", {
+                    value: "semCurso",
+                    text: "Escolha seu curso",
+                    selected: true,
+                    disabled: true,
+                  })
+                ); // Monta option cidades
                 $.each(dados, function (i, cidade) {
                   for (var i = 0; i < cidade.listaCidadesComPolo.length; i++) {
-                    console.log(cidade.listaCidadesComPolo[i]);
-                    var codigoMunicipio =
+                    codigoMunicipio =
                       cidade.listaCidadesComPolo[i].CodMunicipio;
-                    // console.log("código: ", codigoMunicipio);
-                    var nomeMunicipio =
-                      cidade.listaCidadesComPolo[i].NomeMunicipio;
-                    // console.log("cidade: " + nomeMunicipio);
-                    var uf = cidade.listaCidadesComPolo[i].UF;
-                    // console.log("uf: ", uf);
-                    var testeCidade = cidades.push(
-                      cidade.listaCidadesComPolo[i].NomeMunicipio
-                    );
+                    nomeMunicipio = cidade.listaCidadesComPolo[i].NomeMunicipio;
+                    uf = cidade.listaCidadesComPolo[i].UF;
+                    cidades.push(cidade.listaCidadesComPolo[i].NomeMunicipio);
                   }
+                });
 
-                  // Monta combo unidades
-                  $("#cidade").change(function () {
-                    var cidadeSelecionada = $("#cidade :selected").text();
-                    console.log("cidadeSelecionada: " + cidadeSelecionada);
-
-                    if (cidadeSelecionada === nomeMunicipio) {
-                      var unidadeFederativa = uf;
-                      console.log("UF: ", unidadeFederativa);
-
-                      $("#unidade option").remove();
-
-                      $("#unidade").append(
-                        $("<option>", {
-                          value: codigoMunicipio,
-                          text: nomeMunicipio,
-                        })
-                      );
-
-                      console.log("codMunicipio: ", codigoMunicipio);
-                      console.log("nomeMunicipio: ", nomeMunicipio);
-
-                      var url = "https://posgraduacao.ibmec.br/";
-                      var codigoCurso = "codigoCurso";
-                      var codigoCampus = "codigoCampus";
-
-                      // $("a").attr("href", curso.link);
-                      console.log(url + "?uf=" + unidadeFederativa);
-
-                      // LINK PRESENCIAL TODO: codCurso e codCampus
-                      $("a").attr(
-                        "href",
-                        url +
-                          "?uf=" +
-                          unidadeFederativa +
-                          "&curso=" +
-                          codigoCurso +
-                          "&cidade=" +
-                          codigoMunicipio +
-                          "&campus=" +
-                          codigoCampus
-                      );
+                listaCampus = [];
+                var cidadeAchadaNoArray;
+                $("#cidade").change(function () {
+                  var cidadeSelecionada = $("#cidade :selected").text();
+                  cidades.forEach((cidade) => {
+                    if (cidade === cidadeSelecionada) {
+                      cidadeAchadaNoArray = cidade;
                     }
+                  });
+                  listaCampus = [];
+                  dados.forEach((curso) => {
+                    curso.listaCidadesComPolo.forEach((cidadesComPoloAqui) => {
+                      if (
+                        cidadesComPoloAqui.NomeMunicipio == cidadeAchadaNoArray
+                      ) {
+                        codigoMunicipio = cidadesComPoloAqui.CodMunicipio;
+                        // console.log("código: ", codigoMunicipio);
+                        nomeMunicipio = cidadesComPoloAqui.NomeMunicipio;
+                        // console.log("cidade: " + nomeMunicipio);
+                        uf = cidadesComPoloAqui.UF;
+                        //console.log("uf: ", uf);
+                      }
+                    });
+                    curso.listaNomeCampos.forEach((item) => {
+                      if (
+                        item.InfoEndereco.NomeMunicipio === cidadeAchadaNoArray
+                      ) {
+                        listaCampus.push(item.NomeCampus);
+                      }
+                      removeDuplicadosCampus(listaCampus);
+                    });
                   });
                 });
 
-                // Monta array sem duplicidade
-                function pqp(list) {
-                  var result = [];
-                  $("#cidade option").remove();
-                  $.each(list, function (i, cidade) {
-                    if ($.inArray(cidade, result) == -1) {
-                      result.push(cidade);
-                      $("#cidade").append(
-                        $("<option>", {
-                          value: i,
-                          text: cidade,
-                        })
-                      );
-                    }
+                $("#unidade").change(function () {
+                  var unidadeSelecionada = $("#unidade :selected").text();
+                  codigoCampusSelecionado = "";
+                  $("#curso option").remove();
+                  $("#curso").append(
+                    $("<option>", {
+                      value: "semCurso",
+                      text: "Escolha seu curso",
+                      selected: true,
+                      disabled: true,
+                    })
+                  );
+                  dados.forEach((curso) => {
+                    curso.listaNomeCampos.forEach((item) => {
+                      if (item.NomeCampus === unidadeSelecionada) {
+                        console.log(curso);
+
+                        if (item.CodCampus != 2161) {
+                          codigoCampusSelecionado = item.CodCampus;
+                        } else {
+                          codigoCampusSelecionado = 2161;
+                        }
+                        if (btnClidado == curso.tipoCurso) {
+                          $("#curso").append(
+                            $("<option>", {
+                              value: curso.CodCurso,
+                              text: curso.NomeCurso,
+                            })
+                          );
+                          // Cria link para cursos presencial
+                          $("#curso").change(function () {
+                            var cursoSelecionado = $("#curso :selected").val();
+                            if (cursoSelecionado == curso.CodCurso) {
+                              var urlBase = "https://posgraduacao.ibmec.br/";
+                              //$("a").attr("href", urlBase + "?uf="+uf+);
+
+                              $("a").attr(
+                                "href",
+                                urlBase +
+                                  "?uf=" +
+                                  uf +
+                                  "&curso=" +
+                                  cursoSelecionado +
+                                  "&cidade=" +
+                                  codigoMunicipio +
+                                  "&campus=" +
+                                  codigoCampusSelecionado
+                              );
+                            }
+                          });
+                        } //TODO: criar mensagem quando não existir curso disponível e adicionar o hover da seta
+                        else {
+                          curso.forEach((item) => {
+                            console.log("aqui", item[0]);
+                          });
+                          // $("#curso").append(
+                          //   $("<option>", {
+                          //     value: "semCursoDisponivel",
+                          //     text: "Não encotramos nenhum curso",
+                          //   })
+                          // );
+                        }
+                      }
+                    });
                   });
-                  console.log("cidades: ", result);
-                }
-                pqp(cidades);
+                });
               }
-            });
+
+              // // Monta option dos cursos
+              // $.each(dados, function (i, curso) {
+              //   console.log("curso", curso);
+              //   $("#curso").append(
+              //     $("<option>", {
+              //       value: i,
+              //       text: curso.NomeCurso,
+              //     })
+              //   );
+              //   // Cria link para cursos online
+              //   $("#curso").change(function () {
+              //     var cursoSelecionado = $("#curso :selected").text();
+              //     if (cursoSelecionado === curso.NomeCurso) {
+              //       $("a").attr("href", curso.link);
+              //     }
+              //   });
+              // });
+
+              function removeDuplicadosCidade(list) {
+                var result = [];
+                $("#cidade option").remove();
+                $("#cidade").append(
+                  $("<option>", {
+                    value: "semCidade",
+                    text: "Escolha a cidade",
+                    selected: true,
+                    disabled: true,
+                  })
+                );
+                $.each(list, function (i, cidade) {
+                  if ($.inArray(cidade, result) == -1) {
+                    result.push(cidade);
+                    $("#cidade").append(
+                      $("<option>", {
+                        value: i,
+                        text: cidade,
+                      })
+                    );
+                  }
+                });
+              }
+
+              function removeDuplicadosCidade(list) {
+                var result = [];
+                $("#cidade option").remove();
+                $("#cidade").append(
+                  $("<option>", {
+                    value: "semCidade",
+                    text: "Escolha a cidade",
+                    selected: true,
+                    disabled: true,
+                  })
+                );
+                $.each(list, function (i, cidade) {
+                  if ($.inArray(cidade, result) == -1) {
+                    result.push(cidade);
+                    $("#cidade").append(
+                      $("<option>", {
+                        value: i,
+                        text: cidade,
+                      })
+                    );
+                  }
+                });
+              }
+
+              removeDuplicadosCidade(cidades);
+
+              function removeDuplicadosCampus(list) {
+                var result = [];
+                $("#unidade option").remove();
+                $("#unidade").append(
+                  $("<option>", {
+                    value: "semUnidade",
+                    text: "Escolha a unidade",
+                    selected: true,
+                    disabled: true,
+                  })
+                );
+                $.each(list, function (i, cidade) {
+                  var optionUnidade = $("<option>", {
+                    value: i,
+                    text: cidade,
+                  });
+                  if ($.inArray(cidade, result) == -1) {
+                    result.push(cidade);
+                    $("#unidade").append(optionUnidade);
+                  }
+                });
+              }
+            }
           });
         });
       });
