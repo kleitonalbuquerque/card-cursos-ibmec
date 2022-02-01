@@ -34,8 +34,10 @@
       <select id="curso">
         <option value="semCurso" selected disabled>Escolha seu curso</option>
       </select>
-      <p id="demo"></p>
-      <a target="_blank">SAIBA MAIS</a>
+      <div>
+        <a id="saiba-mais" target="_blank">SAIBA MAIS</a>
+      </div>
+      <div id="sem-oferta-curso"></div>
     </div>
   </body>
 
@@ -47,21 +49,23 @@
       var codigoMunicipio;
       var uf;
       var codigoCampusSelecionado;
-      var nomeCampusSelecionado;
+      var temOfertaCurso = false;
       var codigoCursoSelecionado;
-      var listaCursoFiltrada = [];
 
       var listaCampus = [];
+      var listaCursoFiltrado = [];
       var btnClidado;
 
       $("#comboSelect").hide();
 
       $("#botoes").click(function (e) {
+        //pega o nome da opção clicada
         btnClidado = e.target.innerText;
-        console.log(btnClidado);
         $("#comboSelect").show();
         $("#botoes").hide();
+        $("#sem-oferta-curso").hide();
 
+        //esconde o campo se a opção clicada não for mba
         if (btnClidado !== "MBA") {
           $("#modalidade option[value = ibmecOnline]").hide();
         } else {
@@ -76,6 +80,7 @@
         window.location.reload();
       });
 
+      //monta o combo de modalidade
       $.getJSON("data.json", function (data) {
         $.each(data, function (i, obj) {
           $("#modalidade").append(
@@ -88,7 +93,7 @@
       });
 
       $("#modalidade").change(function () {
-        //Pegando o novo valor selecionado no combo
+        //Pegando o novo valor selecionado no combo se for ibmecOnline esconde os campos cidade e unidade
         var valor = $(this).val();
         if (valor == "ibmecOnline") {
           $("#cidade").hide();
@@ -102,6 +107,7 @@
             if (valor === obj.valor) {
               var dados = obj.data;
               if (valor == "ibmecOnline") {
+                //limpa lista de curso para evitar duplicação de cursos
                 $("#curso option").remove();
                 $("#curso").append(
                   $("<option>", {
@@ -111,9 +117,8 @@
                     disabled: true,
                   })
                 );
-                // Monta option dos cursos
+                // Monta option dos cursos online
                 $.each(dados, function (i, curso) {
-                  console.log("curso", curso);
                   $("#curso").append(
                     $("<option>", {
                       value: i,
@@ -129,6 +134,7 @@
                   });
                 });
               } else {
+                //limpa lista de curso para evitar duplicação de cursos
                 $("#curso option").remove();
                 $("#curso").append(
                   $("<option>", {
@@ -137,13 +143,13 @@
                     selected: true,
                     disabled: true,
                   })
-                ); // Monta option cidades
+                ); // Monta option cidades presencial
                 $.each(dados, function (i, cidade) {
                   for (var i = 0; i < cidade.listaCidadesComPolo.length; i++) {
-                    codigoMunicipio =
-                      cidade.listaCidadesComPolo[i].CodMunicipio;
-                    nomeMunicipio = cidade.listaCidadesComPolo[i].NomeMunicipio;
-                    uf = cidade.listaCidadesComPolo[i].UF;
+                    // codigoMunicipio =
+                    //   cidade.listaCidadesComPolo[i].CodMunicipio;
+                    // nomeMunicipio = cidade.listaCidadesComPolo[i].NomeMunicipio;
+                    // uf = cidade.listaCidadesComPolo[i].UF;
                     cidades.push(cidade.listaCidadesComPolo[i].NomeMunicipio);
                   }
                 });
@@ -152,6 +158,15 @@
                 var cidadeAchadaNoArray;
                 $("#cidade").change(function () {
                   var cidadeSelecionada = $("#cidade :selected").text();
+                  $("#curso option").remove();
+                  $("#curso").append(
+                    $("<option>", {
+                      value: "semCurso",
+                      text: "Escolha seu curso",
+                      selected: true,
+                      disabled: true,
+                    })
+                  );
                   cidades.forEach((cidade) => {
                     if (cidade === cidadeSelecionada) {
                       cidadeAchadaNoArray = cidade;
@@ -164,11 +179,8 @@
                         cidadesComPoloAqui.NomeMunicipio == cidadeAchadaNoArray
                       ) {
                         codigoMunicipio = cidadesComPoloAqui.CodMunicipio;
-                        // console.log("código: ", codigoMunicipio);
                         nomeMunicipio = cidadesComPoloAqui.NomeMunicipio;
-                        // console.log("cidade: " + nomeMunicipio);
                         uf = cidadesComPoloAqui.UF;
-                        //console.log("uf: ", uf);
                       }
                     });
                     curso.listaNomeCampos.forEach((item) => {
@@ -194,15 +206,15 @@
                       disabled: true,
                     })
                   );
+
                   dados.forEach((curso) => {
                     curso.listaNomeCampos.forEach((item) => {
                       if (item.NomeCampus === unidadeSelecionada) {
-                        // console.log(curso);
                         // Pega texto do option
-                        $("#curso").change(function () {
-                          var teste = $("#curso :selected").text();
-                          console.log(teste);
-                        });
+                        // $("#curso").change(function () {
+                        //   var teste = $("#curso :selected").text();
+                        //   console.log(teste);
+                        // });
 
                         if (item.CodCampus != 2161) {
                           codigoCampusSelecionado = item.CodCampus;
@@ -210,90 +222,53 @@
                           codigoCampusSelecionado = 2161;
                         }
                         if (btnClidado == curso.tipoCurso) {
+                          listaCursoFiltrado.push(curso);
                           $("#curso").append(
                             $("<option>", {
                               value: curso.CodCurso,
                               text: curso.NomeCurso,
                             })
                           );
-                          // Cria link para cursos presencial
-                          $("#curso").change(function () {
-                            var cursoSelecionado = $("#curso :selected").val();
-                            if (cursoSelecionado == curso.CodCurso) {
-                              var urlBase = "https://posgraduacao.ibmec.br/";
-                              //$("a").attr("href", urlBase + "?uf="+uf+);
-
-                              $("a").attr(
-                                "href",
-                                urlBase +
-                                  "?uf=" +
-                                  uf +
-                                  "&curso=" +
-                                  cursoSelecionado +
-                                  "&cidade=" +
-                                  codigoMunicipio +
-                                  "&campus=" +
-                                  codigoCampusSelecionado
-                              );
-                            }
-                          });
-                        } //TODO: criar mensagem quando não existir curso disponível e adicionar o hover da seta
-                        else {
-                          // curso.forEach((item) => {
-                          //   console.log("aqui", item[0]);
-                          // });
-                          // $("#curso").append(
-                          //   $("<option>", {
-                          //     value: "semCursoDisponivel",
-                          //     text: "Não encotramos nenhum curso",
-                          //   })
-                          // );
-                        }
+                        } //TODO: criar mensagem quando não existir curso disponível e checar se quando alterar a cidade/unidade o campo de curso volta se existir oferta de curso
                       }
                     });
                   });
-                });
-              }
+                  // Cria link para cursos presencial
+                  $("#curso").change(function () {
+                    var cursoSelecionado = $("#curso :selected").val();
 
-              // // Monta option dos cursos
-              // $.each(dados, function (i, curso) {
-              //   console.log("curso", curso);
-              //   $("#curso").append(
-              //     $("<option>", {
-              //       value: i,
-              //       text: curso.NomeCurso,
-              //     })
-              //   );
-              //   // Cria link para cursos online
-              //   $("#curso").change(function () {
-              //     var cursoSelecionado = $("#curso :selected").text();
-              //     if (cursoSelecionado === curso.NomeCurso) {
-              //       $("a").attr("href", curso.link);
-              //     }
-              //   });
-              // });
-
-              function removeDuplicadosCidade(list) {
-                var result = [];
-                $("#cidade option").remove();
-                $("#cidade").append(
-                  $("<option>", {
-                    value: "semCidade",
-                    text: "Escolha a cidade",
-                    selected: true,
-                    disabled: true,
-                  })
-                );
-                $.each(list, function (i, cidade) {
-                  if ($.inArray(cidade, result) == -1) {
-                    result.push(cidade);
-                    $("#cidade").append(
-                      $("<option>", {
-                        value: i,
-                        text: cidade,
-                      })
-                    );
-                  }
+                    listaCursoFiltrado.forEach((cursoFiltrado) => {
+                      console.log("a", cursoFiltrado);
+                      if (cursoSelecionado == cursoFiltrado.CodCurso) {
+                        var urlBase = "https://posgraduacao.ibmec.br/";
+                        temOfertaCurso = true;
+                        if (
+                          uf !== "" &&
+                          cursoSelecionado !== "" &&
+                          codigoMunicipio !== "" &&
+                          codigoCampusSelecionado !== ""
+                        ) {
+                          $("a").attr(
+                            "href",
+                            urlBase +
+                              "?uf=" +
+                              uf +
+                              "&curso=" +
+                              cursoSelecionado +
+                              "&cidade=" +
+                              codigoMunicipio +
+                              "&campus=" +
+                              codigoCampusSelecionado
+                          );
+                        }
+                      } else {
+                        $("#sem-oferta-curso").show();
+                        $("#sem-oferta-curso").html(
+                          "<p style='margn:0; font-size:2rem'>Nenhum curso encontrado</p>"
+                        );
+                      }
+                    });
+                  });
                 });
               }
 
